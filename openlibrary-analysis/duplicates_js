@@ -1,0 +1,1764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="simian.xsl" type="text/xsl"?>
+<!--
+Simian Similarity Analyzer 4.0.0 - https://simian.quandarypeak.com
+Copyright (c) 2023 Quandary Peak Research. All rights reserved.
+Subject to the Quandary Peak Academic Software License.
+-->
+<simian version="4.0.0">
+    <check balanceParentheses="true" failOnDuplication="true" ignoreCharacterCase="true" ignoreCurlyBraces="true" ignoreIdentifierCase="true" ignoreIdentifiers="true" ignoreLiterals="true" ignoreModifiers="true" ignoreStringCase="true" reportDuplicateText="true" threshold="4">
+        <set lineCount="4" fingerprint="c7d45b235db7eee39a7a330947ed3b64">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableRow.js" startLineNumber="67" endLineNumber="85"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dropper/Dropper.js" startLineNumber="49" endLineNumber="73"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="76" endLineNumber="95"/>
+            <text>
+<![CDATA[        this.addSubjectsInput = bulkTagger.querySelector('input[name=tags_to_add]')
+
+        /**
+         * Input which contains the subjects to be batch removed.
+         * @member {HTMLInputElement}
+         */
+        this.removeSubjectsInput = bulkTagger.querySelector('input[name=tags_to_remove]')
+
+        /**
+         * Reference to hidden input which holds a comma-separated list of work OLIDs
+         * @member {HTMLInputElement}
+         */
+        this.selectedWorksInput = bulkTagger.querySelector('input[name=work_ids]')
+
+        /**
+         * Reference to the bulk tagger form's submit button.
+         *
+         * @member {HTMLButtonElement}
+         */
+        this.submitButton = this.rootElement.querySelector('.bulk-tagging-submit')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="65c5784637515e788c041a6ebb61da92">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLogForms.js" startLineNumber="257" endLineNumber="262"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/edition-nav-bar/EditionNavBar.js" startLineNumber="123" endLineNumber="127"/>
+            <text>
+<![CDATA[    selectElement(selectedElem) {
+        for (const li of this.navItems) {
+            li.classList.remove('selected')
+        }
+        selectedElem.classList.add('selected')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="ef6143488dcd9c600c34f224a366eca7">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="52" endLineNumber="59"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="56" endLineNumber="82"/>
+            <text>
+<![CDATA[        this.tag = tag
+
+        /**
+         * Represents the amount of selected works that share this tag.
+         *
+         * Not meant to be updated directly.  Use `updateMenuOptionState()`,
+         * which also updates the UI, to set this value.
+         *
+         * @member {OptionState}
+         */
+        this.optionState = optionState
+
+        /**
+         * Tracks number of selected works which have this tag.
+         *
+         * @member {Number}
+         */
+        this.taggedWorksCount = taggedWorksCount
+    }
+
+    /**
+     * Creates a new menu option.
+     *
+     * Must be called before an event handler can be attached to
+     * this menu option
+     */
+    initialize() {
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="cf15b1670b6088663c691c54e8f70aa6">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/readmore.js" startLineNumber="10" endLineNumber="13"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dropper/Dropper.js" startLineNumber="38" endLineNumber="64"/>
+            <text>
+<![CDATA[        this.dropper = dropper
+
+        /**
+         * jQuery object containing the root element of the dropper.
+         *
+         * **Note:** jQuery is only used here for its slide animations.
+         * This can be removed when and if these animations are handled
+         * strictly with CSS.
+         *
+         * @member {JQuery<HTMLElement>}
+         */
+        this.$dropper = $(dropper)
+
+        /**
+         * Reference to the affordance that, when clicked, toggles
+         * the "Open" state of this dropper.
+         *
+         * @member {HTMLElement}
+         */
+        this.dropClick = dropper.querySelector('.generic-dropper__dropclick')
+
+        /**
+         * Tracks the current "Open" state of this dropper.
+         *
+         * @member {boolean}
+         */
+        this.isDropperOpen = dropper.classList.contains('generic-dropper-wrapper--active')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="294c1c560cc3981529a7ebed94da78c8">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="565" endLineNumber="568"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="153" endLineNumber="157"/>
+            <text>
+<![CDATA[    const monthSelect = parentElement.querySelector('select[name=month]')
+    const daySelect = parentElement.querySelector('select[name=day]')
+    const submitButton = parentElement.querySelector('.check-in__submit-btn')
+
+    yearSelect.value = year
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="31a351c79933f377726be3f14637f00a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/index.js" startLineNumber="9" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="64" endLineNumber="69"/>
+            <text>
+<![CDATA[    errorDiv.textContent = errorMessage;
+    event.preventDefault();
+    return;
+}
+
+function clearErrors() {
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="701d60c5f65d962785f7bc8e6f2d163b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="97" endLineNumber="100"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="62" endLineNumber="65"/>
+            <text>
+<![CDATA[    const errorDiv = document.getElementById('id-errors');
+    errorDiv.classList.remove('hidden');
+    errorDiv.textContent = errorMessage;
+    event.preventDefault();
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="d5fa7ff1d8d4c38a3f64dd88a753ab97">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/readmore.js" startLineNumber="8" endLineNumber="12"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/edition-nav-bar/EditionNavBar.js" startLineNumber="11" endLineNumber="26"/>
+            <text>
+<![CDATA[    constructor(navbarWrapper) {
+        /**
+         * Reference to the parent element of the navbar.
+         * @type {HTMLElement}
+         */
+        this.navbarWrapper = navbarWrapper
+        /**
+         * The navbar
+         * @type {HTMLElement}
+         */
+        this.navbarElem = navbarWrapper.querySelector('.work-menu')
+        /**
+         * The mobile-only navigation arrow. Not guaranteed to exist.
+         * @type {HTMLElement|null}
+         */
+        this.navArrow = navbarWrapper.querySelector('.nav-arrow')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="7c0bfc08f29b7124434aa5d2b749e5a4">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ol.js" startLineNumber="25" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/index.js" startLineNumber="30" endLineNumber="33"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dropper/Dropper.js" startLineNumber="91" endLineNumber="118"/>
+            <text>
+<![CDATA[    onOpen() {}
+
+    /**
+     * Function that is called after a dropper has closed.
+     *
+     * Subclasses of `Dropper` may override this to add
+     * functionality that should occur on dropper close.
+     */
+    onClose() {}
+
+    /**
+     * Function that is called when the drop-click affordance of
+     * a disabled dropper is clicked.
+     *
+     * Subclasses of `Dropper` may override this as needed.
+     */
+    onDisabledClick() {}
+
+    /**
+     * Closes dropper if opened; opens dropper if closed.
+     *
+     * Toggles value of `isDropperOpen`.
+     *
+     * Calls `onDisabledClick()` if this dropper is disabled.
+     * Calls either `onOpen()` or `onClose()` after the dropper
+     * has been toggled.
+     */
+    toggleDropper() {
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="b91b2d716bc694964982ba1952ad8313">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="456" endLineNumber="459"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="33" endLineNumber="37"/>
+            <text>
+<![CDATA[export function initCheckInForms(elems) {
+    for (const elem of elems) {
+        const idField = elem.querySelector('input[name=event_id]')
+
+        const deleteButton = elem.querySelector('.check-in__delete-btn')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="3604d9b7af3396a1dcaee2fd32d07b72">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="153" endLineNumber="156"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="47" endLineNumber="50"/>
+            <text>
+<![CDATA[        crosshair: {
+            mode: 'xy',
+            color: 'rgba(000, 099, 106, 0.4)',
+            lineWidth: 1
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="c7ea389939c4caf55782cd0f3b7a4f1d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="40" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="29" endLineNumber="32"/>
+            <text>
+<![CDATA[        return `
+            <li>
+                <a href="${work.key}">
+                    <img src="//covers.openlibrary.org/b/id/${work.cover_i}-S.jpg?default=https://openlibrary.org/static/images/icons/avatar_book-sm.png" alt=""/>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="75842e0b37a5ea6ec658c1e0fac0a909">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/index.js" startLineNumber="18" endLineNumber="21"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/index.js" startLineNumber="17" endLineNumber="20"/>
+            <text>
+<![CDATA[    loadGraphIfExists('visitors-graph', {}, 'unique visitors on', '#e44028');
+    loadGraphIfExists('members-graph', {}, 'new members on', '#748d36');
+    loadGraphIfExists('edits-graph', {}, 'catalog edits on', '#00636a');
+    loadGraphIfExists('lists-graph', {}, 'lists created on', '#ffa337');
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="b52cadc0ef753925a0f2e2e5cb003857">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLogForms.js" startLineNumber="11" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestService.js" startLineNumber="40" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="13" endLineNumber="19"/>
+            <text>
+<![CDATA[export const CheckInEvent = {
+    /** Started reading */
+    START: '1',
+    /** Update to an existing check-in event */
+    UPDATE: '2',
+    /** Completed reading */
+    FINISH: '3'
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="e272953dd4efe7917d639458d75db1f0">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add_provider.js" startLineNumber="41" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add_provider.js" startLineNumber="40" endLineNumber="43"/>
+            <text>
+<![CDATA[    {value: '', text: ''},
+    {value: 'read', text: 'Read'},
+    {value: 'listen', text: 'Listen'},
+    {value: 'buy', text: 'Buy'},
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="46637894bfefdd9538446962d54eb885">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="293" endLineNumber="296"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="291" endLineNumber="294"/>
+            <text>
+<![CDATA[    const dayField = elem.querySelector('select[name=day]')
+    const day = dayField.value
+    const monthField = elem.querySelector('select[name=month]')
+    const month = monthField.value
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="b02e198fea513579cfe2ea83f6f0d58b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="458" endLineNumber="461"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="431" endLineNumber="438"/>
+            <text>
+<![CDATA[        selector: '.book',
+        type: ['edition'],
+        /**
+         * @param {HTMLElement} el
+         * @return {import('../ol.js').EditionOLID}
+         **/
+        data: el => $(el).find('.title a')[0].href.match(/OL\d+M/)[0],
+    },
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="01c24cd6ded34cbe496061a08e1187e6">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add_provider.js" startLineNumber="48" endLineNumber="51"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add_provider.js" startLineNumber="39" endLineNumber="42"/>
+            <text>
+<![CDATA[const accessTypeValues = [
+    {value: '', text: ''},
+    {value: 'read', text: 'Read'},
+    {value: 'listen', text: 'Listen'},
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="63be38bfc1851e60565b1c1d16115688">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/readmore.js" startLineNumber="4" endLineNumber="11"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLists.js" startLineNumber="19" endLineNumber="37"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="26" endLineNumber="43"/>
+            <text>
+<![CDATA[export class BulkTagger {
+    /**
+     * Sets references to key Bulk Tagger affordances.
+     *
+     * @param {HTMLElement} bulkTagger Reference to root element of the Bulk Tagger
+     */
+    constructor(bulkTagger) {
+        /**
+         * Reference to root Bulk Tagger element.
+         * @member {HTMLFormElement}
+         */
+        this.rootElement = bulkTagger
+
+        /**
+         * Reference to the Bulk Tagger's subject search box.
+         * @member {HTMLInputElement}
+         */
+        this.searchInput = bulkTagger.querySelector('.subjects-search-input')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="6d301c460fac7e839bd01dbac49c6d6b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge.js" startLineNumber="83" endLineNumber="87"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestService.js" startLineNumber="14" endLineNumber="18"/>
+            <text>
+<![CDATA[    if (comment) {
+        data['comment'] = comment
+    }
+    if (primary) {
+        data['primary'] = primary
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="a543024c146111b35c1a0d9b2a64cf53">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLists.js" startLineNumber="311" endLineNumber="316"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestService.js" startLineNumber="41" endLineNumber="45"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestService.js" startLineNumber="10" endLineNumber="14"/>
+            <text>
+<![CDATA[        action: action,
+        mr_type: type,
+        olids: olids
+    }
+    if (comment) {
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="24b37bb6acbbf8b8be2e8c7b9888ca2d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/search.js" startLineNumber="58" endLineNumber="61"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/covers.js" startLineNumber="10" endLineNumber="14"/>
+            <text>
+<![CDATA[export function initCoversChange() {
+    // Pull data from data-config of class "manageCovers" in covers/manage.html
+    const data_config_json = $('.manageCovers').data('config');
+    const doc_type_key = data_config_json['key'];
+    const add_url = data_config_json['add_url'];
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="3e2f76098d5a6bb9e52436ebc630d188">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/readmore.js" startLineNumber="49" endLineNumber="54"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/readmore.js" startLineNumber="44" endLineNumber="49"/>
+            <text>
+<![CDATA[    expand() {
+        this.$container.classList.add('read-more--expanded');
+        this.$content.style.maxHeight = `${this.fullHeight}px`;
+    }
+
+    collapse() {
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="a81367fb29112252f8d2573642b328ab">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLists.js" startLineNumber="155" endLineNumber="158"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/banner/index.js" startLineNumber="31" endLineNumber="34"/>
+            <text>
+<![CDATA[export function initDismissibleBanners(banners) {
+    for (const banner of banners) {
+        const cookieName = banner.dataset.cookieName
+        const cookieDurationDays = banner.dataset.cookieDurationDays
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="547a992eed536a1fac18bd5c4fbbff41">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableRow.js" startLineNumber="61" endLineNumber="79"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableHeader.js" startLineNumber="30" endLineNumber="49"/>
+            <text>
+<![CDATA[        this.dropMenuButtons = tableHeader.querySelectorAll('.mr-dropdown')
+        /**
+         * References each drop-down filter option menu.
+         *
+         * @param {NodeList<HTMLElement>}
+         */
+        this.dropMenus = tableHeader.querySelectorAll('.mr-dropdown-menu')
+        /**
+         * References each drop-down menu "X" affordance, which closes
+         * the appropriate drop-down menu.
+         *
+         * @param{NodeList<HTMLElement>}
+         */
+        this.closeButtons = tableHeader.querySelectorAll('.dropdown-close')
+        /**
+         * References each text input filter.
+         *
+         * @param{NodeList<HTMLElement>}
+         */
+        this.searchInputs = tableHeader.querySelectorAll('.filter')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="8c531ff7026feed76cb50c5734ddc418">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/models/Tag.js" startLineNumber="44" endLineNumber="48"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/models/Tag.js" startLineNumber="38" endLineNumber="42"/>
+            <text>
+<![CDATA[    if (lowerA.tagName < lowerB.tagName) {
+        return -1
+    }
+    else if (lowerA.tagName > lowerB.tagName) {
+        return 1
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="0e8a6a4a92dc361b929d03a41b0b0a4a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/realtime_account_validation.js" startLineNumber="83" endLineNumber="86"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/realtime_account_validation.js" startLineNumber="61" endLineNumber="64"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/realtime_account_validation.js" startLineNumber="35" endLineNumber="38"/>
+            <text>
+<![CDATA[        else {
+            $('label[for="username"]').removeClass();
+            $(document.getElementById('username')).removeClass().addClass('required');
+            $('#usernameMessage').removeClass().html('<br>');
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="381fdcea5a8ae8ea597e085ef3fc411d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/ol.js" startLineNumber="33" endLineNumber="36"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/ol.js" startLineNumber="14" endLineNumber="17"/>
+            <text>
+<![CDATA[export async function move_to_work(edition_ids, old_work, new_work) {
+    for (const olid of edition_ids) {
+        const url = `/books/${olid}.json`;
+        const record = await fetch(url).then(r => r.json());
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="6d161318a5b18bd30e0f8855fe591bcc">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="195" endLineNumber="198"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="162" endLineNumber="165"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="45" endLineNumber="48"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="18" endLineNumber="21"/>
+            <text>
+<![CDATA[    },
+    legend: {
+        show: true,
+        position: 'nw'
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="462b5c2c3aee6cdc6983ea2429d8f3de">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="238" endLineNumber="241"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="201" endLineNumber="207"/>
+            <text>
+<![CDATA[                    daySelect.value = '28'
+                }
+            }
+        }
+    } else {
+        daySelect.value = ''
+        daySelect.disabled = true
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="21b25778395b4d08134b3e47514c08bc">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="95" endLineNumber="108"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="68" endLineNumber="81"/>
+            <text>
+<![CDATA[        const todayLink = elem.querySelector('.check-in__today')
+        todayLink.addEventListener('click', function() {
+            onTodayClick(elem)
+        })
+    }
+}
+
+/**
+ * Adds listeners to check-in date prompts.
+ *
+ * @param {HTMLCollection<HTMLElement>} elems Components that prompt for check-in dates
+ */
+export function initCheckInPrompts(elems) {
+    for (const elem of elems) {
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="d0ebbe468c958666f05a7fd0646e5b96">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/components/ObservationForm/ObservationService.js" startLineNumber="50" endLineNumber="53"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/components/MergeUI/utils.js" startLineNumber="212" endLineNumber="215"/>
+            <text>
+<![CDATA[function save_many(items, comment, action, data) {
+    const headers = {
+        Opt: '"http://openlibrary.org/dev/docs/api"; ns=42',
+        '42-comment': comment,
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="2b7d807e0d13d4b05f324610c6d8b41a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLists.js" startLineNumber="182" endLineNumber="187"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLists.js" startLineNumber="178" endLineNumber="182"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/compact-title/index.js" startLineNumber="75" endLineNumber="80"/>
+            <text>
+<![CDATA[                title.classList.remove('hidden')
+            }
+        }
+    } else {  // At least some of the main title is below the navbar
+        if (isTitleVisible) {
+            title.classList.add('hidden')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="cca9c59e5643bf99eb2b0ef46109eae4">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/CreateListForm.js" startLineNumber="30" endLineNumber="50"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableHeader.js" startLineNumber="22" endLineNumber="43"/>
+            <text>
+<![CDATA[    constructor(tableHeader) {
+        /**
+         * References to each select menu. These are always visible
+         * in the header bar, and, when clicked, display a drop-down
+         * menu with filtering options.
+         *
+         * @param {NodeList<HTMLElement>}
+         */
+        this.dropMenuButtons = tableHeader.querySelectorAll('.mr-dropdown')
+        /**
+         * References each drop-down filter option menu.
+         *
+         * @param {NodeList<HTMLElement>}
+         */
+        this.dropMenus = tableHeader.querySelectorAll('.mr-dropdown-menu')
+        /**
+         * References each drop-down menu "X" affordance, which closes
+         * the appropriate drop-down menu.
+         *
+         * @param{NodeList<HTMLElement>}
+         */
+        this.closeButtons = tableHeader.querySelectorAll('.dropdown-close')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="7f6f62c71da5befe3adefa81f1940c3b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="238" endLineNumber="242"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="234" endLineNumber="238"/>
+            <text>
+<![CDATA[            staff.length && createSectionHeading('Staff');
+            staffCurrent.length && createsubSection(staffCurrent, 'Current');
+            staffEmeritus.length && createsubSection(staffEmeritus, 'Emeritus');
+
+            fellows.length && createSectionHeading('Fellows');
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="051abbb03a49e8cb6f165f70b5685cc3">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="175" endLineNumber="178"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="168" endLineNumber="171"/>
+            <text>
+<![CDATA[        const sectionSeparator = document.createElement('div');
+        sectionSeparator.innerHTML = `${text}`;
+        sectionSeparator.classList = 'sectionSeparator';
+        cardsContainer.append(sectionSeparator);
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="87bf7fd430677aac57171959599eb2d7">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="190" endLineNumber="193"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="157" endLineNumber="160"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="29" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="42" endLineNumber="45"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="39" endLineNumber="42"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="15" endLineNumber="18"/>
+            <text>
+<![CDATA[    },
+    xaxis: {
+        mode: 'time'
+    },
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="5ee2c9a84e519144a66712b293f17aa4">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="30" endLineNumber="33"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="29" endLineNumber="32"/>
+            <text>
+<![CDATA[    invalidChecksum = i18nStrings.invalid_checksum;
+    invalidIsbn10 = i18nStrings.invalid_isbn10;
+    invalidIsbn13 = i18nStrings.invalid_isbn13;
+    invalidLccn = i18nStrings.invalid_lccn;
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="b4b04567d381d1da621406f6d7477410">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="335" endLineNumber="338"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="331" endLineNumber="334"/>
+            <text>
+<![CDATA[            this.tagsToAdd.push(menuOption.tag)
+            menuOption.updateMenuOptionState(MenuOptionState.ALL_TAGGED)
+            break
+        case MenuOptionState.SOME_TAGGED:
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="116558e96c75d93dbf6be180bf12b117">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/validate.js" startLineNumber="37" endLineNumber="40"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestService.js" startLineNumber="8" endLineNumber="11"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dialog.js" startLineNumber="11" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/models/Tag.js" startLineNumber="16" endLineNumber="19"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/models/Tag.js" startLineNumber="5" endLineNumber="8"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="23" endLineNumber="26"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="4" endLineNumber="7"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/autocomplete.js" startLineNumber="276" endLineNumber="279"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="8" endLineNumber="11"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/components/MergeUI/utils.js" startLineNumber="213" endLineNumber="216"/>
+            <text>
+<![CDATA[    const headers = {
+        Opt: '"http://openlibrary.org/dev/docs/api"; ns=42',
+        '42-comment': comment,
+        '42-action': action,
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="6e20d16bad863fecff1f9643feb7fed6">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/search.js" startLineNumber="34" endLineNumber="37"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/search.js" startLineNumber="12" endLineNumber="15"/>
+            <text>
+<![CDATA[export function more(header, start_facet_count, facet_inc) {
+    const facetEntry = `div.${header} div.facetEntry`
+    const shown = $(`${facetEntry}:not(:hidden)`).length
+    const total = $(facetEntry).length
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="c784de2faba84bcf819084877758e984">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="476" endLineNumber="479"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="469" endLineNumber="472"/>
+            <text>
+<![CDATA[        applies_to_type: ['work','edition'],
+        requires_type: ['work'],
+        multiple_only: false,
+        name: 'Tag Works',
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="60ccee0018b5f475c7516bc41bfb437e">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/lists/ShowcaseItem.js" startLineNumber="172" endLineNumber="175"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/lists/ShowcaseItem.js" startLineNumber="166" endLineNumber="169"/>
+            <text>
+<![CDATA[                if (this.isWork) {
+                    this.showcaseElem.classList.remove('hidden')
+                } else {
+                    this.showcaseElem.classList.add('hidden')
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="d8c7d33da6efb3686b443986a8d12249">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableRow.js" startLineNumber="123" endLineNumber="136"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dropper/Dropper.js" startLineNumber="64" endLineNumber="80"/>
+            <text>
+<![CDATA[        this.isDropperOpen = dropper.classList.contains('generic-dropper-wrapper--active')
+
+        /**
+         * Tracks whether this dropper is disabled.
+         *
+         * A disabled dropper cannot be toggled.
+         *
+         * @member {boolean}
+         */
+        this.isDropperDisabled = dropper.classList.contains('generic-dropper--disabled')
+    }
+
+    /**
+     * Adds click listener to dropper's toggle arrow.
+     */
+    initialize() {
+        this.dropClick.addEventListener('click', () => {
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="90efc9bf5e5e8bb830e2baa37b1cae42">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/autocomplete.js" startLineNumber="298" endLineNumber="302"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/autocomplete.js" startLineNumber="288" endLineNumber="292"/>
+            <text>
+<![CDATA[                    return '';
+                }
+            },
+            select: function(event, ui) {
+                const terms = splitField(this.value);
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="97675a34e98f39fbe63abe15fce8cc7d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/realtime_account_validation.js" startLineNumber="35" endLineNumber="42"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/realtime_account_validation.js" startLineNumber="61" endLineNumber="68"/>
+            <text>
+<![CDATA[        else {
+            $('label[for="emailAddr"]').removeClass();
+            $(document.getElementById('emailAddr')).removeClass().addClass('required');
+            $('#emailAddrMessage').removeClass().text('');
+        }
+    }
+
+    function validatePasswords() {
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="cef0bf1ffea4d0c6962a7e744aede628">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/index.js" startLineNumber="11" endLineNumber="16"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/index.js" startLineNumber="26" endLineNumber="31"/>
+            <text>
+<![CDATA[    const seedKeys = []
+    for (const dropper of dropperElements) {
+        const myBooksDropper = new MyBooksDropper(dropper)
+        myBooksDropper.initialize()
+
+        droppers.push(myBooksDropper)
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="f4133cf8233311e3157cd4ba0b6c0a99">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="173" endLineNumber="180"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dropper/Dropper.js" startLineNumber="127" endLineNumber="143"/>
+            <text>
+<![CDATA[            if (this.isDropperOpen) {
+                this.onOpen()
+            } else {
+                this.onClose()
+            }
+        }
+    }
+
+    /**
+     * Closes this dropper.
+     *
+     * Sets `isDropperOpen` to `false`.
+     *
+     * Calls `onDisabledClick()` if this dropper is disabled.
+     * Otherwise, closes dropper and calls `onClose()`.
+     */
+    closeDropper() {
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="8801c6d414ab619ff9e2594f43a2a325">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="16" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLists.js" startLineNumber="11" endLineNumber="37"/>
+            <text>
+<![CDATA[const DEFAULT_COVER_URL = '/images/icons/avatar_book-sm.png'
+
+/**
+ * Represents a single My Books dropper's list affordances, and defines their
+ * functionalities.
+ *
+ * @class
+ */
+export class ReadingLists {
+    /**
+     * Adds functionality to the given dropper's list affordances.
+     * @param {HTMLElement} dropper
+     */
+    constructor(dropper) {
+        /**
+         * References the given My Books Dropper root element.
+         *
+         * @member {HTMLElement}
+         */
+        this.dropper = dropper
+
+        /**
+         * Reference to the "Use work" checkbox.
+         *
+         * @member {HTMLElement|null}
+         */
+        this.workCheckBox = dropper.querySelector('.work-checkbox')
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="ce7eea1aade6e912a012d48ba9376b9d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="61" endLineNumber="68"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/index.js" startLineNumber="30" endLineNumber="34"/>
+            <text>
+<![CDATA[        this.$statusText = this.$toolbar.find('.text');
+        this.$statusImages = this.$toolbar.find('.images ul');
+        this.$actions = this.$toolbar.find('#ile-drag-actions');
+        this.$hiddenForms = this.$toolbar.find('#ile-hidden-forms');
+        this.bulkTagger = null
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="d68eeda1b3438332ed5977669f193c52">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="9" endLineNumber="13"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="33" endLineNumber="37"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="34" endLineNumber="38"/>
+            <text>
+<![CDATA[        },
+        grid: {
+            hoverable: true,
+            clickable: true,
+            autoHighlight: true,
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="59e75717064c95ae3316004617c9856a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="340" endLineNumber="345"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="357" endLineNumber="362"/>
+            <text>
+<![CDATA[        message: 'Move to this work',
+        async ondrop(data) {
+            // eslint-disable-next-line no-console
+            console.log('move', data);
+            window.ILE.setStatusText('Working...');
+            try {
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="b70827f414d7994af4806e2d9b57c822">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/lists/ShowcaseItem.js" startLineNumber="214" endLineNumber="220"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/lists/ShowcaseItem.js" startLineNumber="211" endLineNumber="217"/>
+            <text>
+<![CDATA[        return 'subject'
+    }
+    if (seed.endsWith('M')) {
+        return 'edition'
+    }
+    if (seed.endsWith('W')) {
+        return 'work'
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="2107417b2f796c2f3b2decec50b56093">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestService.js" startLineNumber="10" endLineNumber="15"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestService.js" startLineNumber="41" endLineNumber="46"/>
+            <text>
+<![CDATA[        rtype: 'update-request',
+        action: action,
+        mrid: mrid
+    }
+    if (comment) {
+        data['comment'] = comment
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="138cee39f333ad9928b6c3dc2ce61754">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="60" endLineNumber="64"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="25" endLineNumber="30"/>
+            <text>
+<![CDATA[        this.lastClicked = null;
+
+        this.processClick = this.processClick.bind(this);
+        this.toggleSelected = this.toggleSelected.bind(this);
+        this.clearSelectedItems = this.clearSelectedItems.bind(this);
+        this.dragStart = this.dragStart.bind(this);
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="8210aba7f8a2c92d789a65199205dae9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="13" endLineNumber="17"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="37" endLineNumber="41"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="197" endLineNumber="201"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="27" endLineNumber="31"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="155" endLineNumber="159"/>
+            <text>
+<![CDATA[                fill: 0,
+                color: '#748d36'
+            },
+            points: {
+                show: false
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="ec31d0f0e75f133f3fc56c08cb3eb582">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="17" endLineNumber="21"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="44" endLineNumber="48"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="161" endLineNumber="165"/>
+            <text>
+<![CDATA[            color: '#748d36'
+        },
+        grid: {
+            hoverable: false,
+            show: false
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="24ae3c30fdf9ac77bae093d420c9433f">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="206" endLineNumber="210"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="42" endLineNumber="47"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="41" endLineNumber="46"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="40" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="39" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="38" endLineNumber="42"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="37" endLineNumber="41"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="36" endLineNumber="40"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="35" endLineNumber="39"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="34" endLineNumber="38"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="33" endLineNumber="37"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="32" endLineNumber="36"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="31" endLineNumber="35"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="30" endLineNumber="34"/>
+            <text>
+<![CDATA[window.commify = commify;
+window.cond = cond;
+window.enumerate = enumerate;
+window.foreach = foreach;
+window.htmlquote = htmlquote;
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="7311b7d07d8215ea6ac9d4f0416568ad">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="11" endLineNumber="15"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="9" endLineNumber="14"/>
+            <text>
+<![CDATA[} from './idValidation.js'
+
+let invalidChecksum;
+let invalidIsbn10;
+let invalidIsbn13;
+let invalidLccn;
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="1ab07694a111e13c8f4309ab026bdb05">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="347" endLineNumber="353"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="369" endLineNumber="375"/>
+            <text>
+<![CDATA[                window.ILE.setStatusText('Completed!');
+            } catch (e) {
+                window.ILE.setStatusText('Errored!');
+                throw e;
+            }
+        }
+    },
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="50409b8f747f8475b49c4effd78fd656">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="161" endLineNumber="168"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/check-ins/index.js" startLineNumber="231" endLineNumber="238"/>
+            <text>
+<![CDATA[        let days = DAYS_IN_MONTH[month - 1]
+        if (month === 2 && isLeapYear(year)) {
+            ++days
+        }
+
+        toggleDayVisibility(daySelect, days)
+
+        daySelect.disabled = false
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="972b338483dec3e9a4c235e1885dfcd4">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="29" endLineNumber="33"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="28" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="27" endLineNumber="31"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/index.js" startLineNumber="29" endLineNumber="33"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableRow.js" startLineNumber="105" endLineNumber="129"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableRow.js" startLineNumber="97" endLineNumber="123"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableRow.js" startLineNumber="91" endLineNumber="117"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableRow.js" startLineNumber="85" endLineNumber="111"/>
+            <text>
+<![CDATA[        this.commentsDisplay = this.fullCommentsPanel.querySelector('.comment-panel__comment-display')
+        /**
+         * The comment text input.
+         *
+         * @param {HTMLElement|null}
+         */
+        this.commentReplyInput = this.fullCommentsPanel.querySelector('.comment-panel__reply-input')
+        /**
+         * The comment reply button.
+         *
+         * @param {HTMLElement|null}
+         */
+        this.replyButton = this.fullCommentsPanel.querySelector('.comment-panel__reply-btn')
+        /**
+         * Affordance which allows one to close their own request.
+         *
+         * Only available on a patron's own open requests.
+         *
+         * @param {HTMLElement|null}
+         */
+        this.closeRequestButton = this.row.querySelector('.mr-close-link')
+        /**
+         * Button used by super-librarians to claim a request.
+         *
+         * @param {HTMLElement}
+         */
+        this.reviewButton = this.row.querySelector('.mr-review-actions__review-btn')
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="8ceb8bfc8c6fd0cf8a97d5d807a2d668">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add_provider.js" startLineNumber="42" endLineNumber="46"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add_provider.js" startLineNumber="49" endLineNumber="53"/>
+            <text>
+<![CDATA[    {value: '', text: ''},
+    {value: 'web', text: 'Web'},
+    {value: 'epub', text: 'ePub'},
+    {value: 'pdf', text: 'PDF'}
+]
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="4d5b51cc476acb8526d9c01671cb50ef">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="166" endLineNumber="175"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dropper/Dropper.js" startLineNumber="130" endLineNumber="146"/>
+            <text>
+<![CDATA[                this.onClose()
+            }
+        }
+    }
+
+    /**
+     * Closes this dropper.
+     *
+     * Sets `isDropperOpen` to `false`.
+     *
+     * Calls `onDisabledClick()` if this dropper is disabled.
+     * Otherwise, closes dropper and calls `onClose()`.
+     */
+    closeDropper() {
+        if (this.isDropperDisabled) {
+            this.onDisabledClick();
+        } else {
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="cc73ecbba1bb2407691f734048837916">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="175" endLineNumber="184"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="167" endLineNumber="176"/>
+            <text>
+<![CDATA[    hide() {
+        this.rootElement.classList.add('hidden')
+        this.rootElement.dispatchEvent(new CustomEvent('option-hidden'))
+    }
+
+    /**
+     * Shows this menu option.
+     */
+    show() {
+        this.rootElement.classList.remove('hidden')
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="496150a39152859bd0af09ec78d35629">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="390" endLineNumber="395"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="396" endLineNumber="401"/>
+            <text>
+<![CDATA[    },
+    {
+        singular: 'author',
+        plural: 'authors',
+        regex: /OL\d+A/,
+        image: olid => `https://covers.openlibrary.org/a/olid/${olid}-M.jpg?default=https://openlibrary.org/images/icons/avatar_author-lg.png`,
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="6c98174f07a845f59a07418397d6a3d5">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLists.js" startLineNumber="177" endLineNumber="182"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/MyBooksDropper/ReadingLists.js" startLineNumber="181" endLineNumber="187"/>
+            <text>
+<![CDATA[                    if (itemOnList) {
+                        elemParent.classList.add('list--active')
+                    }
+                }
+            } else {
+                if (itemOnList) {
+                    elemParent.classList.add('list--active')
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="44b16e68e677e509d22590e6e07d410c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/lists/ListViewBody.js" startLineNumber="9" endLineNumber="17"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/lists/ListViewBody.js" startLineNumber="23" endLineNumber="31"/>
+            <text>
+<![CDATA[const itemsWithDeleteSeed = $('.deleteSeed .resultTitle');
+if (itemsWithDeleteSeed.length) {
+    const deleteSeedLink = $('.seedDelete--myLists');
+    itemsWithDeleteSeed.each(function() {
+        $(deleteSeedLink).clone().prependTo(this).removeClass('hidden');
+    });
+
+    // Clean up and remove placeholder element
+    $('.seedDelete--myLists.hidden').remove();
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="86b4d7e51c44b6d60e694a1c99613905">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="8" endLineNumber="12"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/autocomplete.js" startLineNumber="276" endLineNumber="280"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dialog.js" startLineNumber="11" endLineNumber="15"/>
+            <text>
+<![CDATA[    var defaults = {
+        autoOpen: false,
+        width: 400,
+        modal: true,
+        resizable: false,
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="f8416698e8950062b13ede27ef0b166d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="210" endLineNumber="214"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="220" endLineNumber="224"/>
+            <text>
+<![CDATA[    hideLoadingIndicator() {
+        const loadingIndicator = this.rootElement.querySelector('.loading-indicator')
+        loadingIndicator.classList.add('hidden')
+        const menuOptionContainer = this.rootElement.querySelector('.selection-container')
+        menuOptionContainer.classList.remove('hidden')
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="626ae14be7f642fdd30046c3f7350090">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="4" endLineNumber="8"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/models/Tag.js" startLineNumber="16" endLineNumber="20"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/models/Tag.js" startLineNumber="5" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestService.js" startLineNumber="8" endLineNumber="12"/>
+            <text>
+<![CDATA[    const data = {
+        rtype: 'create-request',
+        action: action,
+        mr_type: type,
+        olids: olids
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="ce46364f3241aeafd80771ffa8129769">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="11" endLineNumber="15"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="35" endLineNumber="39"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="39" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="25" endLineNumber="29"/>
+            <text>
+<![CDATA[                show: true,
+                fill: 0.6,
+                color: '#615132',
+                align: 'center'
+            },
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="5d33b938a064f729f9834bcf86ee9cca">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="180" endLineNumber="186"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="186" endLineNumber="192"/>
+            <text>
+<![CDATA[    expand() {
+        $('header#header-bar .logo-component').addClass('hidden');
+        this.$component.addClass('expanded');
+        this.collapsed = false;
+    }
+
+    enableCollapsibleMode() {
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="81f5185deddfafb3a1604713dff368f6">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="22" endLineNumber="26"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="151" endLineNumber="155"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="181" endLineNumber="185"/>
+            <text>
+<![CDATA[    options = {
+        series: {
+            bars: {
+                show: true,
+                fill: 1,
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="3e6dcae8d7dff0e899832def67ba63fb">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="181" endLineNumber="186"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="22" endLineNumber="27"/>
+            <text>
+<![CDATA[    options = {
+        series: {
+            bars: {
+                show: true,
+                fill: 0.6,
+                color: '#615132',
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="67f4178357cb7202bc3b9bcda6c12041">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/lists/ListService.js" startLineNumber="88" endLineNumber="123"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/lists/ListService.js" startLineNumber="53" endLineNumber="88"/>
+            <text>
+<![CDATA[    return await fetch(`${userKey}/lists.json`, {
+        method: 'post',
+        headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+}
+
+/**
+ * Submits request to add given seed to list.
+ *
+ * Executes given callback on success.
+ * @param {string} listKey The list's key.
+ * @param {string|{ key: string }} seed The item being added to the list.
+ * @param {function} success Callback to be executed on successful POST.
+ */
+export function addToList(listKey, seed, success) {
+    post({
+        url: `${listKey}/seeds.json`,
+        data: { add: [seed] },
+        success: success
+    });
+}
+
+/**
+ * Adds an item to a list.  Promise-based.
+ *
+ * @param {string} listKey The patron's key, in the form "/people/{username}"
+ * @param {object} seed Object containing the new list's name, description, and seeds.
+ * @returns {Promise<Response>} The result of the POST request
+ */
+export async function addItem(listKey, seed) {
+    const body = { add: [seed] }
+    return await fetch(`${listKey}/seeds.json`, {
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="da93625325de39b4067a8353fb716f70">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/models/Tag.js" startLineNumber="124" endLineNumber="141"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/models/Tag.js" startLineNumber="108" endLineNumber="124"/>
+            <text>
+<![CDATA[    convertToType(displayType) {
+        const result = subjectTypeMapping[displayType]
+        if (!result) {
+            throw new Error('Unrecognized `displayType` value')
+        }
+        return result
+    }
+
+    /**
+     * Given a technical tag type, returns a type string that can be
+     * displayed in the UI.
+     *
+     * @param {String} tagType The technical tag type
+     * @returns {String} A type string that can be displayed in the UI
+     * @throws Will throw an error if the given type is unrecognized
+     */
+    convertToDisplayType(tagType) {
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="d9817711e7057bb9c11031721510613c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/edit.js" startLineNumber="4" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/edit.js" startLineNumber="3" endLineNumber="8"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="2" endLineNumber="7"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="18" endLineNumber="23"/>
+            <text>
+<![CDATA[    'key',
+    'cover_i',
+    'title',
+    'subtitle',
+    'author_name',
+    'name',
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="dcdefbb125ea2af370ba71d25cebe961">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/SearchBar.js" startLineNumber="9" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="36" endLineNumber="41"/>
+            <text>
+<![CDATA[            hoverable: true,
+            clickable: true,
+            autoHighlight: true,
+            tickColor: '#d9d9d9',
+            borderWidth: 1,
+            borderColor: '#d9d9d9',
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="7c6927a1bb642df4943abd54eb1878b9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="556" endLineNumber="562"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="548" endLineNumber="554"/>
+            <text>
+<![CDATA[        const addSubjectsValue = {
+            subjects: this.findMatches(this.tagsToAdd, 'subjects'),
+            subject_people: this.findMatches(this.tagsToAdd, 'subject_people'),
+            subject_places: this.findMatches(this.tagsToAdd, 'subject_places'),
+            subject_times: this.findMatches(this.tagsToAdd, 'subject_times')
+        }
+        this.addSubjectsInput.value = JSON.stringify(addSubjectsValue)
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="fd1f1671425f3d595ac54df6cd71e6d6">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="98" endLineNumber="103"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="101" endLineNumber="106"/>
+            <text>
+<![CDATA[        case MenuOptionState.SOME_TAGGED:
+            bemSuffix = 'some-tagged'
+            break
+        case MenuOptionState.ALL_TAGGED:
+            bemSuffix = 'all-tagged'
+            break
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="f139af07d4d23fd8fc7d2c2185cfcf85">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/validate.js" startLineNumber="62" endLineNumber="67"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/validate.js" startLineNumber="56" endLineNumber="61"/>
+            <text>
+<![CDATA[            },
+            highlight: function(element, errorClass) {
+                $(element).addClass(errorClass);
+                $(element.form)
+                    .find(`label[for=${element.id}]`)
+                    .addClass(errorClass);
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="5388e1637005aef32b4cadb9913a42d8">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/components/MergeUI/utils.js" startLineNumber="18" endLineNumber="24"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/components/MergeUI/utils.js" startLineNumber="78" endLineNumber="84"/>
+            <text>
+<![CDATA[        case 'covers':
+        case 'subjects':
+        case 'subject_people':
+        case 'subject_places':
+        case 'subject_times':
+        case 'excerpts':
+        default:
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="1e168505343f43a6174b0cab39be954d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="326" endLineNumber="333"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger.js" startLineNumber="338" endLineNumber="345"/>
+            <text>
+<![CDATA[        case MenuOptionState.ALL_TAGGED:
+            stagedTagIndex = this.tagsToAdd.findIndex((tag) => (tag.tagName === menuOption.tag.tagName && tag.tagType === menuOption.tag.tagType))
+            if (stagedTagIndex > -1) {
+                this.tagsToAdd.splice(stagedTagIndex, 1)
+            }
+            this.tagsToRemove.push(menuOption.tag)
+            menuOption.updateMenuOptionState(MenuOptionState.NONE_TAGGED)
+            break
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="ccdbfc0a9d08778a02d8b8168579246b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="34" endLineNumber="56"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="206" endLineNumber="228"/>
+            <text>
+<![CDATA[            const staff = filteredTeam.filter((person) =>
+                matchSubstring(person.roles, 'staff')
+            );
+            const staffEmeritus = staff.filter((person) =>
+                matchSubstring(person.roles, 'emeritus')
+            );
+            const staffCurrent = staff.filter(
+                (person) => !matchSubstring(person.roles, 'emeritus')
+            );
+
+            const fellows = filteredTeam.filter(
+                (person) =>
+                    matchSubstring(person.roles, 'fellow') &&
+          !matchSubstring(person.roles, 'staff')
+            );
+            const currentFellows = fellows.filter((person) =>
+                matchSubstring(person.roles, '2023')
+            );
+            const pastFellows = fellows.filter(
+                (person) => !matchSubstring(person.roles, '2023')
+            );
+
+            const volunteers = filteredTeam.filter(
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="936b0d69bca69703d6b8908e838da872">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/index.js" startLineNumber="6" endLineNumber="12"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/index.js" startLineNumber="5" endLineNumber="11"/>
+            <text>
+<![CDATA[    loadGraphIfExists('editgraph', {}, 'edit(s) on');
+    loadGraphIfExists('membergraph', {}, 'new members(s) on');
+    loadGraphIfExists('works_minigraph', {}, ' works on ');
+    loadGraphIfExists('editions_minigraph', {}, ' editions on ');
+    loadGraphIfExists('covers_minigraph', {}, ' covers on ');
+    loadGraphIfExists('authors_minigraph', {}, ' authors on ');
+    loadGraphIfExists('lists_minigraph', {}, ' lists on ');
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="726741b920292b855ce296211b32ac83">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dropper/Dropper.js" startLineNumber="143" endLineNumber="149"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/dropper/Dropper.js" startLineNumber="118" endLineNumber="124"/>
+            <text>
+<![CDATA[    toggleDropper() {
+        if (this.isDropperDisabled) {
+            this.onDisabledClick();
+        } else {
+            this.$dropper.find('.generic-dropper__dropdown').slideToggle(25);
+            this.$dropper.find('.arrow').toggleClass('up')
+            this.$dropper.toggleClass('generic-dropper-wrapper--active')
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="df5bbc60a567f73a2ea8d966e38d7506">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/ile/utils/SelectionManager/SelectionManager.js" startLineNumber="27" endLineNumber="33"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableRow.js" startLineNumber="91" endLineNumber="129"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/merge-request-table/MergeRequestTable/TableRow.js" startLineNumber="85" endLineNumber="123"/>
+            <text>
+<![CDATA[        this.commentsDisplay = this.fullCommentsPanel.querySelector('.comment-panel__comment-display')
+        /**
+         * The comment text input.
+         *
+         * @param {HTMLElement|null}
+         */
+        this.commentReplyInput = this.fullCommentsPanel.querySelector('.comment-panel__reply-input')
+        /**
+         * The comment reply button.
+         *
+         * @param {HTMLElement|null}
+         */
+        this.replyButton = this.fullCommentsPanel.querySelector('.comment-panel__reply-btn')
+        /**
+         * Affordance which allows one to close their own request.
+         *
+         * Only available on a patron's own open requests.
+         *
+         * @param {HTMLElement|null}
+         */
+        this.closeRequestButton = this.row.querySelector('.mr-close-link')
+        /**
+         * Button used by super-librarians to claim a request.
+         *
+         * @param {HTMLElement}
+         */
+        this.reviewButton = this.row.querySelector('.mr-review-actions__review-btn')
+        /**
+         * Reference to root element of the assignee display.
+         *
+         * @param {HTMLElement}
+         */
+        this.assigneeElement = this.row.querySelector('.mr-review-actions__assignee')
+        /**
+         * Assignee display element which displays the assignee's name.
+         *
+         * @param {HTMLElement}
+         */
+        this.assigneeLabel = this.row.querySelector('.mr-review-actions__assignee-name')
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="3af59e42f5e16775c824cc4ae823d505">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="298" endLineNumber="307"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="186" endLineNumber="195"/>
+            <text>
+<![CDATA[            createSectionHeading('Staff');
+            createsubSection(staffCurrent, 'Current');
+            createsubSection(staffEmeritus, 'Emeritus');
+
+            createSectionHeading('Fellows');
+            createsubSection(currentFellows, 'Current');
+            createsubSection(pastFellows, 'Past');
+
+            createSectionHeading('Volunteers');
+            createCards(volunteers);
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="70e8034a2f28a39af8ed4f7bca5a3407">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="41" endLineNumber="48"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="14" endLineNumber="21"/>
+            <text>
+<![CDATA[        borderColor: '#d9d9d9'
+    },
+    xaxis: {
+        mode: 'time'
+    },
+    legend: {
+        show: true,
+        position: 'nw'
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="92dfa145c2dc13963097ee81355eba22">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="145" endLineNumber="152"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="141" endLineNumber="148"/>
+            <text>
+<![CDATA[            case MenuOptionState.NONE_TAGGED:
+                statusIndicator.classList.remove('selected-tag__status--all-tagged', 'selected-tag__status--some-tagged')
+                statusIndicator.classList.add('selected-tag__status--none-tagged')
+                break;
+            case MenuOptionState.SOME_TAGGED:
+                statusIndicator.classList.remove('selected-tag__status--all-tagged', 'selected-tag__status--none-tagged')
+                statusIndicator.classList.add('selected-tag__status--some-tagged')
+                break;
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="3a1556f681907ff11cac602d6cbb526c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/edit.js" startLineNumber="4" endLineNumber="11"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="2" endLineNumber="9"/>
+            <text>
+<![CDATA[    parseIsbn,
+    parseLccn,
+    isChecksumValidIsbn10,
+    isChecksumValidIsbn13,
+    isFormatValidIsbn10,
+    isFormatValidIsbn13,
+    isValidLccn
+} from './idValidation.js'
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="9726a3ae5f5aeb25d5ae69e03305076f">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/edit.js" startLineNumber="153" endLineNumber="176"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/edit.js" startLineNumber="129" endLineNumber="152"/>
+            <text>
+<![CDATA[        return error('#id-errors', '#id-value', dataConfig['ID must be exactly 10 characters [0-9] or X.'].replace(/ID/, label));
+    }
+    // Here the ISBN has a valid format, but also has an invalid checksum. Give the user a chance to verify
+    // the ISBN, as books sometimes issue with invalid ISBNs and we want to be able to add them.
+    // See https://en-academic.com/dic.nsf/enwiki/8948#cite_ref-18 for more.
+    else if (isFormatValidIsbn10(data.value) === true && isChecksumValidIsbn10(data.value) === false) {
+        isbnConfirmAdd(data)
+        return false
+    }
+    return true;
+}
+
+/**
+ * Called by validateIdentifiers(), validates the addition of new
+ * ISBN 13 to an edition.
+ * @param {Object} data  data from the input form
+ * @param {Object} dataConfig  object mapping error messages to their string values
+ * @param {String} label  formatted value of the identifier type name (ISBN 13)
+ * @returns {boolean}  true if ISBN passes validation, else returns false and displays appropriate error
+ */
+function validateIsbn13(data, dataConfig, label) {
+    data.value = parseIsbn(data.value);
+
+    if (isFormatValidIsbn13(data.value) === false) {
+]]>
+            </text>
+        </set>
+        <set lineCount="9" fingerprint="de6bcaf3593ba326e2e3fdc89005d82a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="257" endLineNumber="269"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/team.js" startLineNumber="271" endLineNumber="283"/>
+            <text>
+<![CDATA[                const filteredCurrentFellows = currentFellows.filter((person) =>
+                    matchSubstring(person.departments, department)
+                );
+                const filteredPastFellows = pastFellows.filter((person) =>
+                    matchSubstring(person.departments, department)
+                );
+                filteredCurrentFellows.length &&
+          createsubSection(filteredCurrentFellows, 'Current');
+                filteredPastFellows.length &&
+          createsubSection(filteredPastFellows, 'Past');
+                !filteredCurrentFellows.length &&
+          !filteredPastFellows.length &&
+          showError();
+]]>
+            </text>
+        </set>
+        <set lineCount="9" fingerprint="5e3e77275d820bce3576f519a744ad3a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/BulkTagger/MenuOption.js" startLineNumber="4" endLineNumber="26"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/bulk-tagger/models/Tag.js" startLineNumber="5" endLineNumber="19"/>
+            <text>
+<![CDATA[const displayTypeMapping = {
+    subjects: 'subject',
+    subject_people: 'person',
+    subject_places: 'place',
+    subject_times: 'time'
+}
+
+/**
+ * Maps UI-ready subject types to their corresponding
+ * technical types.
+ */
+export const subjectTypeMapping = {
+    subject: 'subjects',
+    person: 'subject_people',
+    place: 'subject_places',
+]]>
+            </text>
+        </set>
+        <set lineCount="9" fingerprint="e3a0650bc910028ae3e5afcc4f468319">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="24" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="10" endLineNumber="18"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="34" endLineNumber="42"/>
+            <text>
+<![CDATA[    grid: {
+        hoverable: true,
+        show: true,
+        borderWidth: 1,
+        borderColor: '#d9d9d9'
+    },
+    xaxis: {
+        mode: 'time'
+    },
+]]>
+            </text>
+        </set>
+        <set lineCount="11" fingerprint="1cbd0d88ac568077ee783151401d874e">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="26" endLineNumber="36"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/plot.js" startLineNumber="154" endLineNumber="164"/>
+            <text>
+<![CDATA[                show: true,
+                fill: 0,
+                color: '#748d36'
+            },
+            points: {
+                show: false
+            },
+            color: '#748d36'
+        },
+        grid: {
+            hoverable: false,
+]]>
+            </text>
+        </set>
+        <set lineCount="11" fingerprint="7a751e0c82ceb5598dc9349d634252ce">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="106" endLineNumber="121"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/add-book.js" startLineNumber="118" endLineNumber="132"/>
+            <text>
+<![CDATA[function parseAndValidateIsbn13(event, idValue) {
+    idValue = parseIsbn(idValue);
+    if (!isFormatValidIsbn13(idValue)) {
+        return displayIsbnError(event, invalidIsbn13);
+    }
+    if (!isChecksumValidIsbn13(idValue)) {
+        return displayIsbnError(event, invalidChecksum);
+    }
+    document.getElementById('id_value').value = idValue;
+}
+
+function parseAndValidateLccn(event, idValue) {
+    idValue = parseLccn(idValue);
+    if (!isValidLccn(idValue)) {
+        return displayLccnError(event, invalidLccn);
+]]>
+            </text>
+        </set>
+        <set lineCount="12" fingerprint="00da3b0763d38b3bd0c1120e494eabac">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/store/index.js" startLineNumber="40" endLineNumber="76"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/my-books/store/index.js" startLineNumber="26" endLineNumber="62"/>
+            <text>
+<![CDATA[    getDroppers() {
+        return this._store.droppers
+    }
+
+    /**
+     * @param {Array<MyBooksDropper>} droppers
+     */
+    setDroppers(droppers) {
+        this._store.droppers = droppers
+    }
+
+    /**
+     * @returns {Array<ShowcaseItem>}
+     */
+    getShowcases() {
+        return this._store.showcases
+    }
+
+    /**
+     * @param {Array<ShowcaseItem>} showcases
+     */
+    setShowcases(showcases) {
+        this._store.showcases = showcases
+    }
+
+    /**
+     * @returns {string}
+     */
+    getUserKey() {
+        return this._store.userKey
+    }
+
+    /**
+     * @param {string} userKey
+     */
+    setUserKey(userKey) {
+        this._store.userKey = userKey
+]]>
+            </text>
+        </set>
+        <set lineCount="16" fingerprint="cfcd208495d565ef66e7dff9f98764da">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="31" endLineNumber="47"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/index.js" startLineNumber="30" endLineNumber="46"/>
+            <text>
+<![CDATA[window.commify = commify;
+window.cond = cond;
+window.enumerate = enumerate;
+window.foreach = foreach;
+window.htmlquote = htmlquote;
+window.len = len;
+window.range = range;
+window.slice = slice;
+window.sprintf = sprintf;
+window.truncate = truncate;
+window.urlencode = urlencode;
+window.websafe = websafe;
+window._ = ugettext;
+window.ungettext = ungettext;
+window.uggettext = ugettext;
+
+window.Browser = Browser;
+]]>
+            </text>
+        </set>
+        <set lineCount="19" fingerprint="856af821f4c0ee3bafa3559e72e04621">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="1" endLineNumber="19"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/plugins/openlibrary/js/graphs/options.js" startLineNumber="25" endLineNumber="43"/>
+            <text>
+<![CDATA[const loans = {
+    series: {
+        stack: 0,
+        bars: {
+            show: true,
+            align: 'left',
+            barWidth: 20 * 60 * 60 * 1000,
+        },
+    },
+    grid: {
+        hoverable: true,
+        show: true,
+        borderWidth: 1,
+        borderColor: '#d9d9d9'
+    },
+    xaxis: {
+        mode: 'time'
+    },
+    yaxis: {
+]]>
+            </text>
+        </set>
+        <summary duplicateFileCount="42" duplicateLineCount="1058" duplicateBlockCount="193" totalFileCount="96" totalRawLineCount="12547" totalSignificantLineCount="3917" processingTime="127"/>
+    </check>
+</simian>

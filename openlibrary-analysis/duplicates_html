@@ -1,0 +1,3069 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="simian.xsl" type="text/xsl"?>
+<!--
+Simian Similarity Analyzer 4.0.0 - https://simian.quandarypeak.com
+Copyright (c) 2023 Quandary Peak Research. All rights reserved.
+Subject to the Quandary Peak Academic Software License.
+-->
+<simian version="4.0.0">
+    <check failOnDuplication="true" ignoreCharacterCase="true" ignoreCurlyBraces="true" ignoreIdentifierCase="true" ignoreModifiers="true" ignoreStringCase="true" reportDuplicateText="true" threshold="4">
+        <set lineCount="4" fingerprint="740fa9516d9286def425519bb9de9b92">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/email/forgot.html" startLineNumber="1" endLineNumber="6"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/email/forgot-ia.html" startLineNumber="1" endLineNumber="6"/>
+            <text>
+<![CDATA[$def with(email=None, err="")
+
+$var title: $("Forgot Your Email?")
+
+<div id="contentHead">
+    <h2>$_('Forgot Your Internet Archive Email?')</h2>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="0c581a20f9c77d1acd63f6f7a8b5aef9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/view.html" startLineNumber="95" endLineNumber="99"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/inspect/store.html" startLineNumber="33" endLineNumber="37"/>
+            <text>
+<![CDATA[    }
+</style>
+
+<div id="contentHead">
+    $:render_template("admin/menu")
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="04f72636736585d78ad1ee178d9ed8de">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/email/forgot.html" startLineNumber="35" endLineNumber="38"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/email/forgot-ia.html" startLineNumber="30" endLineNumber="33"/>
+            <text>
+<![CDATA[	</div>
+	<input type="password" name="password"/>
+      </div>
+      <div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="6fb63b0a04c72509b1ff686c82671813">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/index.html" startLineNumber="50" endLineNumber="53"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/index.html" startLineNumber="37" endLineNumber="40"/>
+            <text>
+<![CDATA[                </span>
+            </form>
+        </td>
+    </tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="cc4bcc7945cf93f0a9011ccf08fc52b8">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/tag/add.html" startLineNumber="35" endLineNumber="39"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/web.html" startLineNumber="55" endLineNumber="60"/>
+            <text>
+<![CDATA[        </div>
+    </div>
+
+</fieldset>
+
+<div class="formElement">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="29787b59bab7fb662a452f7fb4007a4e">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/view.html" startLineNumber="318" endLineNumber="321"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/site/alert.html" startLineNumber="18" endLineNumber="21"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lists/home.html" startLineNumber="57" endLineNumber="60"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/home/stats.html" startLineNumber="41" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/home/categories.html" startLineNumber="29" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/change.html" startLineNumber="55" endLineNumber="58"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_single_edition.html" startLineNumber="20" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover.html" startLineNumber="41" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/add.html" startLineNumber="45" endLineNumber="48"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/add.html" startLineNumber="44" endLineNumber="47"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/inspect/memcache.html" startLineNumber="39" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/ShareModal.html" startLineNumber="67" endLineNumber="70"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/ShareModal.html" startLineNumber="66" endLineNumber="69"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/SRPCoverImage.html" startLineNumber="25" endLineNumber="28"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CoverImage.html" startLineNumber="29" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/BookPreview.html" startLineNumber="26" endLineNumber="29"/>
+            <text>
+<![CDATA[        </div>
+      </div>
+    </div>
+  </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="cdcc9fed8951ad52e7ae0dcc351da6dc">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/user/edit.html" startLineNumber="25" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/template/edit.html" startLineNumber="18" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/rawtext/edit.html" startLineNumber="18" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/page/edit.html" startLineNumber="19" endLineNumber="24"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/macro/edit.html" startLineNumber="20" endLineNumber="25"/>
+            <text>
+<![CDATA[        </div>
+    </div>
+
+    $:macros.TypeChanger(page.type)
+
+    <div class="clearfix"></div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="55fe8366e12704180fa8c3b4e4e9d8fe">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/swagger/swaggerui.html" startLineNumber="33" endLineNumber="36"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/site/footer.html" startLineNumber="58" endLineNumber="61"/>
+            <text>
+<![CDATA[}
+</script>
+</body>
+</html>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="9ab6dfac973bc1d1520347877926bdbe">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lib/history.html" startLineNumber="62" endLineNumber="65"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="66" endLineNumber="70"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/NotesModal.html" startLineNumber="41" endLineNumber="44"/>
+            <text>
+<![CDATA[      </form>
+    </div>
+  </div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="606d3cbaec17b92d2e169137ab18284b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/verify/success.html" startLineNumber="5" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/verify/activated.html" startLineNumber="5" endLineNumber="9"/>
+            <text>
+<![CDATA[<div id="contentHead">
+    <h1>$_("Hi, %(user)s", user=account.displayname)</h1>
+</div>
+
+<div id="contentBody">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="1909a9f2730da43b2a6c1b9e17cfeea9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/i18n_page/edit.html" startLineNumber="36" endLineNumber="40"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/about/index.html" startLineNumber="29" endLineNumber="32"/>
+            <text>
+<![CDATA[			</select>
+		</div>
+	</div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="0f8bf49d14ce62da8c62204fe56ca0b2">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/import.html" startLineNumber="63" endLineNumber="66"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/import.html" startLineNumber="52" endLineNumber="55"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/import.html" startLineNumber="41" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/import.html" startLineNumber="30" endLineNumber="33"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/import.html" startLineNumber="19" endLineNumber="22"/>
+            <text>
+<![CDATA[          </div>
+        </form>
+      </div>
+      <div class="import-export__section">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="610c1dcc69c341d346ea6cd021992e0c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/i18n_page/edit.html" startLineNumber="37" endLineNumber="42"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/add.html" startLineNumber="75" endLineNumber="79"/>
+            <text>
+<![CDATA[            </div>
+
+        </div>
+    </div>
+</form>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="b30b15d7ff32c8fa5cc6d53c712de0dc">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/updated_records.html" startLineNumber="27" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/render.html" startLineNumber="27" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/edits.html" startLineNumber="37" endLineNumber="40"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/ip/view.html" startLineNumber="40" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChanges.html" startLineNumber="14" endLineNumber="17"/>
+            <text>
+<![CDATA[                <th>$_("Comment")</th>
+            </tr>
+        </thead>
+        <tbody>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="57eee961c4d8d0847e3e1559a462d222">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/tag/edit.html" startLineNumber="43" endLineNumber="46"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/tag/add.html" startLineNumber="46" endLineNumber="49"/>
+            <text>
+<![CDATA[                        <option value="$tag_type">$tag_type</option>
+                </select>
+            </div>
+        </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="45dcbb656e3dd0e81c59bb2eb565e961">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/compact_title.html" startLineNumber="11" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarView.html" startLineNumber="36" endLineNumber="39"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarTemplate.html" startLineNumber="14" endLineNumber="17"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarHistory.html" startLineNumber="28" endLineNumber="31"/>
+            <text>
+<![CDATA[                rel="nofollow"
+            >$_("Edit")</a>
+        </div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="549434d8d5b5ff7ce7975b0749cad8b0">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/waitinglists.html" startLineNumber="61" endLineNumber="64"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="79" endLineNumber="82"/>
+            <text>
+<![CDATA[                    $else:
+                        -
+                </td>
+                <td class="what">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="955e63770fe076ce3670faa2d2c50ae1">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/show.html" startLineNumber="21" endLineNumber="24"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/SearchResults.html" startLineNumber="34" endLineNumber="37"/>
+            <text>
+<![CDATA[                <span class="resultType">
+                    $book.physical_format.replace('[', '').replace(']','')
+                </span>
+            </span>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="2d470c299e692d1e4f499f73c4cb7228">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="94" endLineNumber="97"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lib/nav_head.html" startLineNumber="115" endLineNumber="118"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/home/about.html" startLineNumber="24" endLineNumber="27"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/ShareModal.html" startLineNumber="65" endLineNumber="68"/>
+            <text>
+<![CDATA[          </ul>
+        </div>
+      </div>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="ca35851976f7b999b0f74682128f969a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/template/edit.html" startLineNumber="31" endLineNumber="36"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/author/edit.html" startLineNumber="102" endLineNumber="107"/>
+            <text>
+<![CDATA[                            </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="formElement">
+                            <div class="label">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="f8b4f04686f4af6eb62bc57d6760f418">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/search/publishers.html" startLineNumber="26" endLineNumber="29"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/languages/index.html" startLineNumber="13" endLineNumber="16"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/check.html" startLineNumber="37" endLineNumber="40"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/authors/index.html" startLineNumber="37" endLineNumber="40"/>
+            <text>
+<![CDATA[            </span>
+            </li>
+        </ul>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="7179b2efcdba062157141647fc585095">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/view.html" startLineNumber="153" endLineNumber="156"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/index.html" startLineNumber="38" endLineNumber="41"/>
+            <text>
+<![CDATA[            </form>
+        </td>
+    </tr>
+    <tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="e11f07f1db03c401dab3fd9d8e1aae46">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="43" endLineNumber="46"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="26" endLineNumber="29"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="9" endLineNumber="12"/>
+            <text>
+<![CDATA[    <table class="readinglog-stats">
+      <tbody>
+        <tr>
+          <th>$_('All time')</th>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="dcb9c985e47dc153073554e2f4b1d444">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notes.html" startLineNumber="65" endLineNumber="68"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="212" endLineNumber="215"/>
+            <text>
+<![CDATA[            </div>
+          </li>
+      </ul>
+  </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="f64c2ba1a5871b6bfc1af2f5a6d410c2">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChangesUsers.html" startLineNumber="19" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChangesAdmin.html" startLineNumber="20" endLineNumber="24"/>
+            <text>
+<![CDATA[            </tr>
+        </thead>
+
+        $for v in changes:
+            <tbody>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="354d11215b866ecac369635346b4580d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/email/forgot.html" startLineNumber="40" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/email/forgot-ia.html" startLineNumber="35" endLineNumber="38"/>
+            <text>
+<![CDATA[      </div>
+      <div class="formElement">
+        <div class="label"></div>
+        <div class="input smaller padtop">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="c9b20c905db282c9702b153b281d1d86">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="70" endLineNumber="73"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="59" endLineNumber="62"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="48" endLineNumber="51"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="37" endLineNumber="40"/>
+            <text>
+<![CDATA[        <div class="csv-autocomplete--subjects" data-config="$dumps(config)">
+            $:render_subject_field(config['name'], config['data'])
+        </div>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="775683d48e4235b2a5c1e1d9c2f08d64">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/manage.html" startLineNumber="20" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="20" endLineNumber="23"/>
+            <text>
+<![CDATA[                </td>
+            </tr>
+        </table>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="532ac751ad6d73cae732643b023cfec6">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/search/subjects.html" startLineNumber="36" endLineNumber="39"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/search/authors.html" startLineNumber="34" endLineNumber="37"/>
+            <text>
+<![CDATA[                $line
+                $if not loop.last:
+                    <br>
+        </strong>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="1209168efd6daed3e91c97c0b3b94f2e">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover.html" startLineNumber="42" endLineNumber="46"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="24" endLineNumber="27"/>
+            <text>
+<![CDATA[                </div>
+            </div>
+        </div>
+        <div class="hidden">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="9fc1ac4ae6db18cf97a7f6ca118c3f7b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/my_books/dropdown_content.html" startLineNumber="75" endLineNumber="78"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="27" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CreateListModal.html" startLineNumber="2" endLineNumber="5"/>
+            <text>
+<![CDATA[    <div class="hidden">
+        <div class="floaterAdd" id="addList">
+            <div class="floaterHead">
+                <h2>$_('Create a new list')</h2>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="c5562f9dc66e9ea5dbd9d36b6f0702dd">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/SearchResultsWork.html" startLineNumber="53" endLineNumber="57"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/IABook.html" startLineNumber="13" endLineNumber="17"/>
+            <text>
+<![CDATA[   </span>
+
+    <div class="details">
+        <div class="resultTitle">
+           <h3 itemprop="name" class="booktitle">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="6488368bbaf4aa0427d0aab6c94686a9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lib/markdown.html" startLineNumber="20" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/history.html" startLineNumber="32" endLineNumber="35"/>
+            <text>
+<![CDATA[            </tr>
+        </thead>
+        <tbody>
+            <tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="58cb5b168fdb599733afb1335bed3ed0">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/render.html" startLineNumber="3" endLineNumber="6"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/edits.html" startLineNumber="5" endLineNumber="8"/>
+            <text>
+<![CDATA[$if paginate:
+    $ page = safeint(query_param('page', '1'))
+$else:
+    $ page = 1
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="7229b9dbae38fa1010d3d4d3011533e5">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/tag/add.html" startLineNumber="63" endLineNumber="66"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/support.html" startLineNumber="66" endLineNumber="69"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/my_books/dropdown_content.html" startLineNumber="103" endLineNumber="106"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/merge/authors.html" startLineNumber="115" endLineNumber="120"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/add.html" startLineNumber="104" endLineNumber="107"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/solr.html" startLineNumber="38" endLineNumber="41"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/ip/view.html" startLineNumber="89" endLineNumber="93"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/imports-add.html" startLineNumber="25" endLineNumber="28"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/attach_debugger.html" startLineNumber="19" endLineNumber="22"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="72" endLineNumber="75"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/password/reset.html" startLineNumber="21" endLineNumber="26"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/password/forgot.html" startLineNumber="20" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notifications.html" startLineNumber="52" endLineNumber="55"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/email/forgot-ia.html" startLineNumber="40" endLineNumber="43"/>
+            <text>
+<![CDATA[	</div>
+      </div>
+    </form>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="c9ce1d6dcd4ecd4d71004da5dc804904">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="211" endLineNumber="214"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="150" endLineNumber="153"/>
+            <text>
+<![CDATA[            </a>
+          </div>
+        </li>
+      </ul>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="52c72344e06896995e5bca362673cb45">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/web.html" startLineNumber="29" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="216" endLineNumber="219"/>
+            <text>
+<![CDATA[        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="4a0f8ac778ecbe026a4ddca546bbef4a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/show.html" startLineNumber="14" endLineNumber="17"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/SearchResults.html" startLineNumber="27" endLineNumber="30"/>
+            <text>
+<![CDATA[                $:authorlist
+                </span>
+            <span class="resultPublisher">
+                $if book.publishers:
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="0fce5a605b40a4a686ad9330c806e3a8">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/sponsorship.html" startLineNumber="80" endLineNumber="85"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/sponsorship.html" startLineNumber="53" endLineNumber="58"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/sponsorship.html" startLineNumber="21" endLineNumber="26"/>
+            <text>
+<![CDATA[      </tr>
+  </table>
+
+  <hr>
+
+  <table class="sponsor">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="d4fe53d86cdc7f7f22b419597777f871">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/merge/view.html" startLineNumber="1" endLineNumber="4"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/merge/path.html" startLineNumber="1" endLineNumber="5"/>
+            <text>
+<![CDATA[$def with (change)
+
+$ primary = change.get_master()
+$ type = primary.type.key.replace("/type/","")
+$ label = primary.name if type == "author" else primary.title
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="6dc111ddd2b28a7a7db954d88215d923">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/excerpts.html" startLineNumber="32" endLineNumber="36"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="61" endLineNumber="65"/>
+            <text>
+<![CDATA[        </div>
+    </div>
+
+    <div class="formElement bottom">
+        <div class="label">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="a2abfc9239c6b3ce9ebf59b2fd422dfd">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/tag/add.html" startLineNumber="25" endLineNumber="29"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="18" endLineNumber="22"/>
+            <text>
+<![CDATA[    </div>
+
+<fieldset class="major">
+    <div class="formElement">
+        <div class="label">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="95422ce15db45c446f48ee89e7197041">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChangesUsers.html" startLineNumber="33" endLineNumber="36"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChanges.html" startLineNumber="30" endLineNumber="33"/>
+            <text>
+<![CDATA[                $else:
+                    $ name = v.key
+                <td class="path">
+                    <div class="truncatepath">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="da1fd05b7b0ddadc847a9619769dd4a1">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/edit-book/path.html" startLineNumber="1" endLineNumber="5"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/add-book/path.html" startLineNumber="1" endLineNumber="5"/>
+            <text>
+<![CDATA[$def with (change)
+
+$if len(change.changes) == 1:
+    $:render_template("recentchanges/default/path", change)
+$else:
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="7a9d76044f07e1212092ae0f10b77334">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="198" endLineNumber="201"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="190" endLineNumber="193"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="181" endLineNumber="184"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="172" endLineNumber="175"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="164" endLineNumber="167"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="149" endLineNumber="152"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="139" endLineNumber="142"/>
+            <text>
+<![CDATA[                  <img class="icon-link__image li-count" src="/static/images/icons/right-chevron.svg">
+                </a>
+              </div>
+            </li>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="776930fc7607fc25fe9fa0548d6f443c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="19" endLineNumber="22"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="139" endLineNumber="142"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="55" endLineNumber="58"/>
+            <text>
+<![CDATA[    <table>
+        <thead>
+            <tr>
+                <th class="titles" colspan="2">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="78a28bbb7b537fc1dd63acb92f6625ab">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/view.html" startLineNumber="227" endLineNumber="230"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarView.html" startLineNumber="7" endLineNumber="10"/>
+            <text>
+<![CDATA[    $else:
+        $ edit_url = page.url(suffix="/edit")
+$else:
+    $ edit_url = page.key + "?m=edit"
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="7b4445954c029b24a3de2426fb2d5876">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/usergroup/edit.html" startLineNumber="1" endLineNumber="7"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/template/edit.html" startLineNumber="1" endLineNumber="7"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/rawtext/edit.html" startLineNumber="1" endLineNumber="7"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/permission/edit.html" startLineNumber="1" endLineNumber="7"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/about/edit.html" startLineNumber="1" endLineNumber="7"/>
+            <text>
+<![CDATA[$def with (page)
+
+$ _x = ctx.setdefault('cssfile', 'edit')
+
+$var title: $_("Edit %(title)s", title=page.key)
+
+$:render_template("lib/edit_head", page)
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="141a0bee19eccbd22e5db999a37aebff">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="84" endLineNumber="87"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/ManageLoansButtons.html" startLineNumber="4" endLineNumber="7"/>
+            <text>
+<![CDATA[  Borrowed $datestr(datetime_from_utc_timestamp(loan['loaned_at']))
+</div>
+$ wlsize = book.get_waitinglist_size()
+$if wlsize:
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="d350327382217baa40f35be1bb240dc9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/work/rdf.html" startLineNumber="2" endLineNumber="5"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/rdf.html" startLineNumber="2" endLineNumber="5"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/author/rdf.html" startLineNumber="2" endLineNumber="5"/>
+            <text>
+<![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="fd871c0396b22540fe7155029b1ed3c1">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/author/edit.html" startLineNumber="16" endLineNumber="20"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/tag/add.html" startLineNumber="10" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/add.html" startLineNumber="18" endLineNumber="22"/>
+            <text>
+<![CDATA[    $if not ctx.user:
+        $:render_template("lib/not_logged")
+</div>
+
+<div id="contentBody">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="97f7ede85dfd8ac83f0d56a358eddba0">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/permission/view.html" startLineNumber="1" endLineNumber="6"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/local_id/view.html" startLineNumber="1" endLineNumber="6"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/language/view.html" startLineNumber="1" endLineNumber="6"/>
+            <text>
+<![CDATA[$def with (page)
+
+$var title: $page.name
+
+<div id="contentHead">
+    $:macros.databarView(page)
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="cc75d5c1bb384a1ac958863284c4d04d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/book_providers/standard_ebooks_download_options.html" startLineNumber="6" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/book_providers/openstax_download_options.html" startLineNumber="5" endLineNumber="8"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/book_providers/librivox_download_options.html" startLineNumber="3" endLineNumber="6"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/book_providers/ia_download_options.html" startLineNumber="3" endLineNumber="6"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/book_providers/gutenberg_download_options.html" startLineNumber="5" endLineNumber="8"/>
+            <text>
+<![CDATA[<hr>
+<div class="cta-section">
+<p class="cta-section-title">$_('Download Options')</p>
+<ul class="ebook-download-options">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="755b6c3669aa31351bd4681dca0bc80c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/observations.html" startLineNumber="43" endLineNumber="46"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notes.html" startLineNumber="64" endLineNumber="67"/>
+            <text>
+<![CDATA[                    </div>
+                  </div>
+                </li>
+            </ul>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="d12b312b6af6c75bb5f9ac8a386e9db7">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/verify.html" startLineNumber="4" endLineNumber="8"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/password/reset_success.html" startLineNumber="5" endLineNumber="9"/>
+            <text>
+<![CDATA[<div id="contentHead">
+    <h1>$_("Hi, %(user)s", user=username)!</h1>
+</div>
+
+<div id="contentBody">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="06de040537b6c28dffd69539e41f2a66">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/list/view_body.html" startLineNumber="131" endLineNumber="134"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/IABook.html" startLineNumber="12" endLineNumber="16"/>
+            <text>
+<![CDATA[      </a>
+   </span>
+
+    <div class="details">
+        <div class="resultTitle">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="e7f529399e7e9b38b66c99219c16b2b7">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/permissions.html" startLineNumber="39" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/imports-add.html" startLineNumber="17" endLineNumber="20"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="64" endLineNumber="67"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notifications.html" startLineNumber="44" endLineNumber="47"/>
+            <text>
+<![CDATA[            </div>
+        </div>
+        <div class="formElement bottom">
+            <div class="input">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="741a44f91027a4bfaf62f7ecacdab4c3">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/waitinglists.html" startLineNumber="41" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="55" endLineNumber="58"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="156" endLineNumber="159"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="71" endLineNumber="74"/>
+            <text>
+<![CDATA[                <td class="cover">
+                $:render_template('covers/book_cover_small', book)
+                </td>
+                <td class="titles">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="92533e9ef5854b3b1b0994c36042a8f1">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/view.html" startLineNumber="508" endLineNumber="511"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/view.html" startLineNumber="416" endLineNumber="419"/>
+            <text>
+<![CDATA[                    <li><a href="$link.url">$link.title</a></li>
+                </ul>
+              </div>
+            </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="0465ac773694797eddfcbf447c1a4b17">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/subjects/notfound.html" startLineNumber="14" endLineNumber="18"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/publishers/notfound.html" startLineNumber="14" endLineNumber="17"/>
+            <text>
+<![CDATA[        <input type="text" name="q" size="100" class="larger" value=""/>
+        <button type="submit" class="larger">$_("Search")</button>
+    </form>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="23fec0d2a362e4d5b8cf4d02ee57065a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/subjects.html" startLineNumber="48" endLineNumber="54"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/publishers/view.html" startLineNumber="21" endLineNumber="26"/>
+            <text>
+<![CDATA[</div>
+
+<div class="contentBody">
+  $:render_template("books/custom_carousel", books=page.works, key="subjects", load_more={"url": page.key + ".json", "limit": len(page.works)})
+
+	<div class="head">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="73b8a415ebf94d46b8151267fe5b8930">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="128" endLineNumber="131"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="121" endLineNumber="124"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="114" endLineNumber="117"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="81" endLineNumber="84"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="75" endLineNumber="78"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="69" endLineNumber="72"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="63" endLineNumber="66"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="57" endLineNumber="60"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="51" endLineNumber="54"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="45" endLineNumber="48"/>
+            <text>
+<![CDATA[            <td class="amount">$commify(1234)</td>
+            <td class="amount">$commify(1234)</td>
+            <td class="amount">$commify(1234)</td>
+        </tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="fe0e990cedfecb51e164319bf0969486">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="586" endLineNumber="590"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="249" endLineNumber="253"/>
+            <text>
+<![CDATA[                </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="minor formBackRight">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="8e3e95706ca3473b09eb85b0574ff192">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/work/editions.html" startLineNumber="39" endLineNumber="42"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edition-sort.html" startLineNumber="65" endLineNumber="68"/>
+            <text>
+<![CDATA[          $book.physical_format.replace('[', '').replace(']','')
+          $if book.languages:
+            $:_('in %(languagelist)s', languagelist=commify_list(thingrepr(l) for l in book.languages))
+          $if book.edition_name:
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="40e7da10bfd55ab500b42d006af4cbf7">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/status.html" startLineNumber="65" endLineNumber="68"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/sponsorship.html" startLineNumber="94" endLineNumber="97"/>
+            <text>
+<![CDATA[        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="e3fa8eba5cecefa8fa7c2114bd5dec5f">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/merge_request_table/table_header.html" startLineNumber="95" endLineNumber="98"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/home/categories.html" startLineNumber="28" endLineNumber="31"/>
+            <text>
+<![CDATA[            </a>
+          </div>
+      </div>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="5e7bf95fb0e88a3256c872d58f4589e9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/web.html" startLineNumber="53" endLineNumber="56"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/ShareModal.html" startLineNumber="63" endLineNumber="67"/>
+            <text>
+<![CDATA[            </li>
+
+          </ul>
+        </div>
+      </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="bc5f52e5b96ca36afc9db61c7c37a3c5">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/my_books/dropdown_content.html" startLineNumber="96" endLineNumber="99"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/login.html" startLineNumber="54" endLineNumber="58"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/excerpts.html" startLineNumber="42" endLineNumber="45"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="56" endLineNumber="59"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CreateListModal.html" startLineNumber="23" endLineNumber="26"/>
+            <text>
+<![CDATA[                    </div>
+                </div>
+                <div class="formElement">
+                    <div class="input">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="d70e07f91374871669ca263070fa52fe">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/publishers/view.html" startLineNumber="107" endLineNumber="110"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/publishers/index.html" startLineNumber="6" endLineNumber="9"/>
+            <text>
+<![CDATA[    <form action="/search/publishers" class="olform">
+        <h2 class="collapse"><label for="searchSubjects">Publisher Search</label>  <span class="sansserif grey smaller">Try a keyword.</span></h2>
+        <p>
+            <input type="text" name="q" id="searchSubjects" size="100" class="larger" value=""/>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="9c106d93105c0d5a4263fec55327cf27">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="619" endLineNumber="622"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="156" endLineNumber="164"/>
+            <text>
+<![CDATA[                    </div>
+                </div>
+        </fieldset>
+
+
+
+
+
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="9172ee705c1b43de92df7846d4e82252">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/status.html" startLineNumber="82" endLineNumber="85"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/render.html" startLineNumber="52" endLineNumber="55"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/history.html" startLineNumber="70" endLineNumber="73"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="207" endLineNumber="210"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/waitinglists.html" startLineNumber="83" endLineNumber="86"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/sponsorship.html" startLineNumber="138" endLineNumber="141"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/view.html" startLineNumber="224" endLineNumber="227"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/index.html" startLineNumber="52" endLineNumber="55"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/edits.html" startLineNumber="67" endLineNumber="70"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="96" endLineNumber="99"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/ip/view.html" startLineNumber="70" endLineNumber="73"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="202" endLineNumber="205"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="106" endLineNumber="109"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChanges.html" startLineNumber="48" endLineNumber="51"/>
+            <text>
+<![CDATA[                </td>
+            </tr>
+        </tbody>
+    </table>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="746c20395935108a8399213c3b370005">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="56" endLineNumber="59"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="35" endLineNumber="38"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="18" endLineNumber="21"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/showmarc.html" startLineNumber="38" endLineNumber="41"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/showia.html" startLineNumber="32" endLineNumber="35"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="616" endLineNumber="619"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="529" endLineNumber="532"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="473" endLineNumber="476"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="236" endLineNumber="239"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/waitinglists.html" startLineNumber="84" endLineNumber="87"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/sponsorship.html" startLineNumber="139" endLineNumber="143"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="97" endLineNumber="100"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/index.html" startLineNumber="97" endLineNumber="100"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/index.html" startLineNumber="62" endLineNumber="65"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="203" endLineNumber="206"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="107" endLineNumber="110"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/import.html" startLineNumber="133" endLineNumber="136"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="170" endLineNumber="173"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="131" endLineNumber="135"/>
+            <text>
+<![CDATA[                </tr>
+            </tbody>
+        </table>
+
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="fe017e89c4726f702b6c794eb4dbe32c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/check.html" startLineNumber="36" endLineNumber="39"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/SearchResults.html" startLineNumber="53" endLineNumber="57"/>
+            <text>
+<![CDATA[            </span>
+    </span>
+    </li>
+
+</ul>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="479400a7e6738b3a32eb9cfb63a85be6">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/undo/view.html" startLineNumber="13" endLineNumber="17"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/default/view.html" startLineNumber="10" endLineNumber="14"/>
+            <text>
+<![CDATA[    </div>
+
+    <h3>Updated Records</h3>
+    $:render_template("recentchanges/updated_records", change)
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="18c531a1151bb50c9e983fcbdc5d4a17">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/tag/edit.html" startLineNumber="23" endLineNumber="27"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/about/edit.html" startLineNumber="40" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/about/edit.html" startLineNumber="30" endLineNumber="34"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/about/edit.html" startLineNumber="20" endLineNumber="24"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/permission.html" startLineNumber="19" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/my_books/dropdown_content.html" startLineNumber="88" endLineNumber="91"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/add.html" startLineNumber="58" endLineNumber="62"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/excerpts.html" startLineNumber="20" endLineNumber="25"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="571" endLineNumber="575"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="561" endLineNumber="564"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="551" endLineNumber="554"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="352" endLineNumber="356"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="342" endLineNumber="346"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="327" endLineNumber="331"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="239" endLineNumber="243"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="146" endLineNumber="150"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="136" endLineNumber="140"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="123" endLineNumber="130"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="113" endLineNumber="117"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="103" endLineNumber="107"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="50" endLineNumber="54"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="39" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="28" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/add.html" startLineNumber="48" endLineNumber="52"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="48" endLineNumber="51"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="40" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CreateListModal.html" startLineNumber="15" endLineNumber="18"/>
+            <text>
+<![CDATA[                    </div>
+                </div>
+                <div class="formElement">
+                    <div class="label">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="66eeaadf821466952cb1843bfddb8ed6">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/excerpts.html" startLineNumber="94" endLineNumber="97"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="532" endLineNumber="535"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="476" endLineNumber="479"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="388" endLineNumber="393"/>
+            <text>
+<![CDATA[            </div>
+        </div>
+
+    </div>
+
+</fieldset>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="cae965d5a04af7f3004acfcb247f0514">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/author/view.html" startLineNumber="34" endLineNumber="38"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/Metatags.html" startLineNumber="10" endLineNumber="14"/>
+            <text>
+<![CDATA[$add_metatag(property="og:url", content=request.canonical_url)
+$add_metatag(property="og:site_name", content="Open Library")
+$add_metatag(property="og:description", content=description)
+
+$set_share_links(url=request.canonical_url, title=title, view_context=ctx)
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="827056c9afc0fd3d775e19d539959658">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/tag/edit.html" startLineNumber="35" endLineNumber="38"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/tag/add.html" startLineNumber="39" endLineNumber="42"/>
+            <text>
+<![CDATA[        <div class="formElement">
+            <div class="label"><label for="id_value">$_("Tag type")</label></div>
+            <div class="input">
+                <select name="tag_type" id="tag_type">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="8ddc7a0387a900b9311fa6d95da8a8e1">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="158" endLineNumber="161"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="113" endLineNumber="116"/>
+            <text>
+<![CDATA[                    <td class="amount"><strong>$commify(1234)</strong></td>
+                    <td class="amount">$commify(1234)</td>
+                    <td class="amount">$commify(1234)</td>
+                    <td class="amount">$commify(1234)</td>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="4ff972aa8bdedc1d81b30997666699c5">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/my_books/dropdown_content.html" startLineNumber="104" endLineNumber="107"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/import.html" startLineNumber="74" endLineNumber="77"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="65" endLineNumber="68"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/NotesModal.html" startLineNumber="40" endLineNumber="43"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CreateListModal.html" startLineNumber="32" endLineNumber="35"/>
+            <text>
+<![CDATA[                </div>
+            </form>
+        </div>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="73fe2e956a256c6e08519db4c835a6b7">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/verify/failed.html" startLineNumber="5" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/not_verified.html" startLineNumber="13" endLineNumber="17"/>
+            <text>
+<![CDATA[<div id="contentHead">
+    <h1>$_("Oops!")</h1>
+</div>
+
+<div id="contentBody">
+]]>
+            </text>
+        </set>
+        <set lineCount="4" fingerprint="9cb23a34f31ef763751d563974fa6757">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/notfound.html" startLineNumber="9" endLineNumber="13"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/languages/notfound.html" startLineNumber="5" endLineNumber="9"/>
+            <text>
+<![CDATA[<div id="contentHead">
+    <h1>$_("404 - Page Not Found")</h1>
+</div>
+
+<div id="contentBody">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="a91e327f8e7c836d2d49e69d495aaa96">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/sponsorship.html" startLineNumber="21" endLineNumber="27"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/sponsorship.html" startLineNumber="53" endLineNumber="59"/>
+            <text>
+<![CDATA[    </tr>
+  </table>
+
+  <hr>
+
+  <table class="sponsor">
+    <tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="c60b43b6f21910fc134e6b7ea6b8cfce">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notifications.html" startLineNumber="28" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="27" endLineNumber="31"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="48" endLineNumber="52"/>
+            <text>
+<![CDATA[        </div>
+        <br/>
+        <div class="formElement">
+            <div class="input radio">
+                <div class="sansserif larger">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="7a548db7efc6ef4c95ed97cee015e8ea">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/imports-add.html" startLineNumber="17" endLineNumber="21"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notifications.html" startLineNumber="44" endLineNumber="48"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="64" endLineNumber="68"/>
+            <text>
+<![CDATA[            </div>
+        </div>
+        <div class="formElement bottom">
+            <div class="input">
+                <br/>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="52f671f26e6e1d16e64466a86c02d814">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarTemplate.html" startLineNumber="12" endLineNumber="16"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/subjects.html" startLineNumber="24" endLineNumber="28"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarHistory.html" startLineNumber="26" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarView.html" startLineNumber="34" endLineNumber="38"/>
+            <text>
+<![CDATA[            data-ol-link-track="CTAClick|Edit"
+            accesskey="e"
+            rel="nofollow"
+        >$_("Edit")</a>
+        </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="4641ef3de837d1441a6d5fdaf57ab63c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="120" endLineNumber="124"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="127" endLineNumber="131"/>
+            <text>
+<![CDATA[                    <td class="amount">$commify(1234)</td>
+                    <td class="amount">$commify(1234)</td>
+                    <td class="amount">$commify(1234)</td>
+                    <td class="amount">$commify(1234)</td>
+                </tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="fced7f914d176ae9eb80842d072d379b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/author/rdf.html" startLineNumber="61" endLineNumber="65"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/work/rdf.html" startLineNumber="63" endLineNumber="67"/>
+            <text>
+<![CDATA[        <foaf:page>
+            <foaf:Document rdf:about="$link.url">
+                <rdfs:label>$link.title</rdfs:label>
+            </foaf:Document>
+        </foaf:page>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="d7ffaa4ad27b0dfbdedfa4d2c8eb9170">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/default/message.html" startLineNumber="1" endLineNumber="6"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/edit-book/message.html" startLineNumber="1" endLineNumber="6"/>
+            <text>
+<![CDATA[$def with (change)
+
+$if change.author:
+    $ who = '<a href="%s" rel="nofollow">%s</a>' % (change.author.key, change.author.displayname or change.author.key)
+$else:
+    $ who = None
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="19e6f461265402cb651096c3690b248d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/create.html" startLineNumber="9" endLineNumber="15"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/login.html" startLineNumber="7" endLineNumber="12"/>
+            <text>
+<![CDATA[</div>
+
+<div id="contentBody">
+  $if not ctx.user:
+      $:render_template("account/ia_thirdparty_logins")
+      <div class="login-big-or">$_('OR')</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="585630ae48b7541a067f8318ba3f9704">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lists/export_as_html.html" startLineNumber="41" endLineNumber="45"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lists/export_as_html.html" startLineNumber="58" endLineNumber="62"/>
+            <text>
+<![CDATA[            </div>
+            <br/>
+        </li>
+    </ul>
+    <ul>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="d4b2d272725f6064ed80df2d38b9d15d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="40" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="61" endLineNumber="65"/>
+            <text>
+<![CDATA[                    <label for="u1">$_("No")</label>
+                    <br/><br/>
+                </div>
+            </div>
+        </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="d9f8b25d488e64414198d36298305fac">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="17" endLineNumber="21"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/waitinglists.html" startLineNumber="18" endLineNumber="22"/>
+            <text>
+<![CDATA[$else:
+    <div class="borrow borrow-table collapse">
+    <table>
+        <thead>
+            <tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="f6529212c15f8303a61bbfd5798a76a3">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/language/view.html" startLineNumber="10" endLineNumber="17"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/local_id/view.html" startLineNumber="10" endLineNumber="17"/>
+            <text>
+<![CDATA[    </span>
+
+    <h1>$page.name</h1>
+</div>
+
+<div id="contentBody">
+
+    <div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="67e4a02c250839b17097a1847fb710fb">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarHistory.html" startLineNumber="10" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarView.html" startLineNumber="17" endLineNumber="21"/>
+            <text>
+<![CDATA[            $ author = get_recent_author(page)
+        $if author:
+            <div class="brown smaller sansserif">$:_('Last edited by %(author_link)s', author_link=author.render_link())</div>
+        $else:
+            <div class="brown smaller sansserif">$_("Last edited anonymously")</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="79bfdbd981329b3fc4158edb5a3cf009">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="106" endLineNumber="110"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="96" endLineNumber="100"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/sponsorship.html" startLineNumber="138" endLineNumber="143"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/waitinglists.html" startLineNumber="83" endLineNumber="87"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="202" endLineNumber="206"/>
+            <text>
+<![CDATA[                      </td>
+                  </tr>
+              </tbody>
+          </table>
+        </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="45fc67fa5469354b5cf4c444d0e9d82e">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="71" endLineNumber="75"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="156" endLineNumber="160"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="55" endLineNumber="59"/>
+            <text>
+<![CDATA[                <td class="cover">
+                $:render_template('covers/book_cover_small', book)
+                </td>
+                <td class="titles">
+                    <span class="book">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="802dc15c02708f11fb6787b451762198">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/permission/edit.html" startLineNumber="1" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/rawtext/edit.html" startLineNumber="1" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/template/edit.html" startLineNumber="1" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/usergroup/edit.html" startLineNumber="1" endLineNumber="9"/>
+            <text>
+<![CDATA[$def with (page)
+
+$ _x = ctx.setdefault('cssfile', 'edit')
+
+$var title: $_("Edit %(title)s", title=page.key)
+
+$:render_template("lib/edit_head", page)
+
+<div id="contentBody">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="e6683f938c57195a995fd8f4f32ea5a2">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notifications.html" startLineNumber="5" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="5" endLineNumber="9"/>
+            <text>
+<![CDATA[<div id="contentHead">
+    <div class="small sansserif grey account-settings-menu">
+      <a href="$ctx.user.key">$ctx.user.displayname</a>
+      &raquo;
+      <a href="$homepath()/account">$_("Settings")</a>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="cd5cd61f91987c4d738b16129999ebf6">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/search/authors.html" startLineNumber="22" endLineNumber="26"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/search/subjects.html" startLineNumber="22" endLineNumber="26"/>
+            <text>
+<![CDATA[        <form class="siteSearch olform" action="">
+            <input type="text" class="larger" name="q" size="100" value="$q"/>
+            <input type="submit" class="larger" value="$_('Search')"/>
+        </form>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="cb30bc91569c6fe68d4d252cb643ecee">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChanges.html" startLineNumber="8" endLineNumber="12"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/render.html" startLineNumber="21" endLineNumber="25"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/updated_records.html" startLineNumber="22" endLineNumber="26"/>
+            <text>
+<![CDATA[<table class="changeHistory">
+    <thead>
+        <tr>
+            <th>$_("When")</th>
+            <th>$_("What")</th>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="7d3debe3b3b8a60bdf8646800c8a0ab5">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover.html" startLineNumber="43" endLineNumber="48"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/author_photo.html" startLineNumber="12" endLineNumber="16"/>
+            <text>
+<![CDATA[        </div>
+    </div>
+    <div class="hidden">
+        <div class="coverFloat" id="seeImage">
+            <div class="coverFloatHead">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="4bc81cc2d0b58ea665ae0b629b34a488">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/import.html" startLineNumber="133" endLineNumber="137"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="236" endLineNumber="240"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="473" endLineNumber="477"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="529" endLineNumber="533"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="616" endLineNumber="620"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="107" endLineNumber="111"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="203" endLineNumber="207"/>
+            <text>
+<![CDATA[                  </tr>
+              </tbody>
+          </table>
+        </div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="625a046cd9c2126a189d0ddca543bdcf">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/edit_yaml.html" startLineNumber="8" endLineNumber="12"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lib/edit_head.html" startLineNumber="3" endLineNumber="7"/>
+            <text>
+<![CDATA[<div id="editHead">
+    <h2>
+        $_("You're in edit mode.")
+        <span class="cancelThis"><a href="javascript:history.go(-1);">$_('Cancel, and go back.')</a></span>
+    </h2>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="72566e5c43637c4dddf5daead6a2baca">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="128" endLineNumber="132"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/sidebar.html" startLineNumber="56" endLineNumber="60"/>
+            <text>
+<![CDATA[          $if key == 'list':
+            $# e.g. /people/openlibrary/lists/OL1L/MyList
+            $ path_id = ctx.path.split('/')[4]
+            $if list_id == path_id:
+              $ class_list = class_list + 'selected'
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="03c9d29b49e83db7e6d2b1b548f272d7">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="131" endLineNumber="137"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/index.html" startLineNumber="62" endLineNumber="67"/>
+            <text>
+<![CDATA[        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="contentRight">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="d35bfc730547b7bb2460429171d980f9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/modal_links.html" startLineNumber="10" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/title_and_author.html" startLineNumber="6" endLineNumber="10"/>
+            <text>
+<![CDATA[  $ ga_attr = 'data-ol-link-track=%s' % ga_data if ga_data else ''
+  <a href="$href" class="$link_class icon-link" $ga_attr>
+    <img class="icon-link__image" src="$img_src">
+    <div class="icon-link__text">$link_text</div>
+  </a>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="fe2db3b708fa37335ad6809f7e326657">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_work.html" startLineNumber="26" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover.html" startLineNumber="50" endLineNumber="54"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_single_edition.html" startLineNumber="30" endLineNumber="34"/>
+            <text>
+<![CDATA[            <a class="dialog--close">&times;<span class="shift">$_("Close")</span></a>
+        </div>
+        <a class="dialog--close"><img src="$cover_lg" class="cover" alt="$title $_('by') $author_names"/></a>
+    </div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="ba14b942bed312794482dae22db4e226">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/view.html" startLineNumber="182" endLineNumber="186"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/view.html" startLineNumber="195" endLineNumber="199"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/view.html" startLineNumber="204" endLineNumber="208"/>
+            <text>
+<![CDATA[            $else:
+                <em>Not available</em>
+        </td>
+    </tr>
+    <tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="991d35ecb2678bd249705baf23e0eb8c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/permission.html" startLineNumber="29" endLineNumber="34"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/page/edit.html" startLineNumber="30" endLineNumber="36"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/permission/edit.html" startLineNumber="42" endLineNumber="48"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/usergroup/edit.html" startLineNumber="31" endLineNumber="38"/>
+            <text>
+<![CDATA[        </div>
+    </div>
+
+
+    $:macros.EditButtons(comment=page.comment_)
+
+    </form>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="0aeb220c92d9ee224c3e49cbea42630c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="79" endLineNumber="83"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="162" endLineNumber="166"/>
+            <text>
+<![CDATA[                          </span>
+                          <span class="author">
+                              $:macros.BookByline([(a.name, a.url()) for a in book.get_authors()])
+                          </span>
+                          <div class="date">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="4ebe4ac0469d46486c2c63feaff126a3">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/language/view.html" startLineNumber="1" endLineNumber="8"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/local_id/view.html" startLineNumber="1" endLineNumber="8"/>
+            <text>
+<![CDATA[$def with (page)
+
+$var title: $page.name
+
+<div id="contentHead">
+    $:macros.databarView(page)
+
+    <span class="tag">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="8b5f086c1b2dfae1828aafa980fa7d77">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/Pager.html" startLineNumber="19" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/Pager_loanhistory.html" startLineNumber="2" endLineNumber="6"/>
+            <text>
+<![CDATA[    <div class="clearfix"></div>
+    <div class="pagination">
+    $if page != 1:
+        <a href="$changequery(page=None)" class="ChoosePage">&laquo;&nbsp;$_('First')</a>
+        <a href="$changequery(page=page-1)" class="ChoosePage">&lt;&nbsp;$_('Previous')</a>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="953b49a42bac47420652713261273631">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CoverImage.html" startLineNumber="29" endLineNumber="33"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_single_edition.html" startLineNumber="20" endLineNumber="24"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/SRPCoverImage.html" startLineNumber="25" endLineNumber="29"/>
+            <text>
+<![CDATA[                </div>
+            </div>
+        </div>
+    </div>
+$else:
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="dcd48acddd38e0ba9fb01058356c094e">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/authors/index.html" startLineNumber="25" endLineNumber="29"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/search/authors.html" startLineNumber="57" endLineNumber="61"/>
+            <text>
+<![CDATA[            $ date = ''
+            $if 'birth_date' in doc or 'death_date' in doc:
+                $ date = doc.get('birth_date', '') + ' - ' + doc.get('death_date', '')
+            $elif 'date' in doc:
+                $ date = doc['date']
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="51dcad06b2fdeebf6d0612f2ea38b2d9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="204" endLineNumber="208"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="442" endLineNumber="446"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="507" endLineNumber="511"/>
+            <text>
+<![CDATA[                        </td>
+                        <td >
+                            <button type="button" name="add" class="repeat-add larger">$_("Add")</button>
+                        </td>
+                    </tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="308aabb46e8fcf4b90e301d202c8eedf">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/rawtext/edit.html" startLineNumber="18" endLineNumber="25"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/page/edit.html" startLineNumber="19" endLineNumber="26"/>
+            <text>
+<![CDATA[        </div>
+    </div>
+
+    $:macros.TypeChanger(page.type)
+
+    <div class="clearfix"></div>
+
+    <div class="formElement">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="bc08011997b0584c7a4e9d463ae5d3b4">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/contact/spam/sent.html" startLineNumber="3" endLineNumber="10"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/email/case_created.html" startLineNumber="3" endLineNumber="10"/>
+            <text>
+<![CDATA[$var title: Sent!
+
+<div id="contentHead">
+    <h1>Sent!</h1>
+</div>
+
+
+<div id="contentBody">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="95ad1a110a68f396bc833d7afd29cecf">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="34" endLineNumber="38"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="55" endLineNumber="59"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notifications.html" startLineNumber="35" endLineNumber="39"/>
+            <text>
+<![CDATA[                    <br/><br/>
+                </div>
+            </div>
+            <div class="input radio">
+                <div class="sansserif larger">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="01b8dc99d874899531545d1218b5e76a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/render.html" startLineNumber="33" endLineNumber="37"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/ip/view.html" startLineNumber="57" endLineNumber="61"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/edits.html" startLineNumber="54" endLineNumber="58"/>
+            <text>
+<![CDATA[            <td class="time">$datestr(c.timestamp)</td>
+            <td class="path">$:call_template("path", c)</td>
+            $if c.author:
+                <td class="displayname"><a rel="nofollow" href="$c.author.key">$c.author.displayname</a></td>
+            $elif c.ip and c.ip != '127.0.0.1':
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="eed3f7e757a3ef65f6c7f8d052a32d83">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarHistory.html" startLineNumber="4" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarView.html" startLineNumber="8" endLineNumber="13"/>
+            <text>
+<![CDATA[        $ edit_url = page.url(suffix="/edit")
+$else:
+    $ edit_url = page.key + "?m=edit"
+
+<div id="editTools" class="edit">
+    <div id="editInfo">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="c0243b9c02b8f7514b5d66af941bde10">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="63" endLineNumber="67"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="69" endLineNumber="73"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="75" endLineNumber="79"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="81" endLineNumber="85"/>
+            <text>
+<![CDATA[            <td class="amount">$commify(1234)</td>
+            <td class="amount">$commify(1234)</td>
+            <td class="amount">$commify(1234)</td>
+        </tr>
+        <tr class="major">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="c370043e7ff3a92e3545359ff8ca3300">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/list/embed.html" startLineNumber="19" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/list/view_body.html" startLineNumber="43" endLineNumber="47"/>
+            <text>
+<![CDATA[            $if owner:
+                <a href="$owner.key">$owner.displayname</a>
+                /
+                <a href="$owner.key/lists">$_('Lists')</a>
+        </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="ee6508eb8b286c463249fa080e1bba8b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/NotesModal.html" startLineNumber="40" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="65" endLineNumber="70"/>
+            <text>
+<![CDATA[                </div>
+                </form>
+            </div>
+        </div>
+
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="7e97273d413e712e92e11bfa2ee339c0">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover.html" startLineNumber="40" endLineNumber="44"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CoverImage.html" startLineNumber="28" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_single_edition.html" startLineNumber="19" endLineNumber="23"/>
+            <text>
+<![CDATA[                    <div class="Author">$:macros.TruncateString(author_names, 30)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="f3e7460a6a19fbf6a2319a4bbb47e904">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/custom_carousel.html" startLineNumber="4" endLineNumber="8"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/mobile_carousel.html" startLineNumber="3" endLineNumber="7"/>
+            <text>
+<![CDATA[$ ctx.setdefault("links", [])
+$# Apparently fonts always need crossorigin for some reason
+$ slick_font = '<link rel="preload" href="/static/css/fonts/slick.woff" as="font" type="font/woff" crossorigin>'
+$if slick_font not in ctx.links:
+  $ ctx.links.append(slick_font)
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="45240258521dfc1acb2c3f6a8187b002">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="201" endLineNumber="205"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/view.html" startLineNumber="223" endLineNumber="227"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/index.html" startLineNumber="51" endLineNumber="55"/>
+            <text>
+<![CDATA[            </form>
+        </td>
+    </tr>
+</tbody>
+</table>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="01ffd68cb0dc523cbdee1c33a7d7dc2a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notes.html" startLineNumber="72" endLineNumber="76"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/observations.html" startLineNumber="49" endLineNumber="53"/>
+            <text>
+<![CDATA[  </div>
+  <div class="pager">
+    $:macros.Pager(page, num_found, results_per_page)
+  </div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="dd0a460142e3183799c5b32d467e784a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/object/view.html" startLineNumber="43" endLineNumber="49"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/permission/view.html" startLineNumber="5" endLineNumber="10"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/type/view.html" startLineNumber="5" endLineNumber="10"/>
+            <text>
+<![CDATA[<div id="contentHead">
+    $:macros.databarView(page)
+    <h1>$page.key</h1>
+</div>
+
+<div id="contentBody">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="4ce5eb165b36480d9692db00caf2c75d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="18" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="35" endLineNumber="40"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/stats/readinglog.html" startLineNumber="56" endLineNumber="61"/>
+            <text>
+<![CDATA[        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="admin-section">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="7b52f9150a3778772802da70aa14fead">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/ShareModal.html" startLineNumber="66" endLineNumber="70"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/add.html" startLineNumber="44" endLineNumber="48"/>
+            <text>
+<![CDATA[                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="702214f24957e97230d98070e3c9dc33">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="63" endLineNumber="67"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="41" endLineNumber="45"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/waitinglists.html" startLineNumber="27" endLineNumber="31"/>
+            <text>
+<![CDATA[            </tr>
+        </thead>
+        <tbody>
+        <!-- for each borrow -->
+        $for loan in loans:
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="35f67b85e01ca50cf43a6b962847944d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="45" endLineNumber="49"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="51" endLineNumber="55"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="57" endLineNumber="61"/>
+            <text>
+<![CDATA[            <td class="amount">$commify(1234)</td>
+            <td class="amount">$commify(1234)</td>
+            <td class="amount">$commify(1234)</td>
+        </tr>
+        <tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="9eb5d5533fc87d207061880aa4a66ca0">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="18" endLineNumber="22"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="54" endLineNumber="58"/>
+            <text>
+<![CDATA[  <div class="borrow borrow-table collapse">
+    <table>
+        <thead>
+            <tr>
+                <th class="titles" colspan="2">
+]]>
+            </text>
+        </set>
+        <set lineCount="5" fingerprint="04bbcf52087b76a2e3ab85b87358ba14">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChangesAdmin.html" startLineNumber="45" endLineNumber="51"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChangesUsers.html" startLineNumber="47" endLineNumber="53"/>
+            <text>
+<![CDATA[                </tr>
+            </tbody>
+
+    </table>
+
+    <div class="historyPager small sansserif gray" style="width:100%;">
+    $if len(changes) == limit:
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="280195ad86a8068cf1ccc635b86f7ada">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/SRPCoverImage.html" startLineNumber="3" endLineNumber="8"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CoverImage.html" startLineNumber="7" endLineNumber="12"/>
+            <text>
+<![CDATA[$code:
+    def aname(a):
+        if isinstance(a, basestring):
+            return a
+        else:
+            return a.name
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="68812fd7605058b331e96affcec242bf">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lists/export_as_html.html" startLineNumber="47" endLineNumber="53"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lists/export_as_html.html" startLineNumber="27" endLineNumber="32"/>
+            <text>
+<![CDATA[        <li>
+            <h3 class="title">
+                <a href="$request.home$book.url()">$book.get('title', 'Title unknown')</a>
+            </h3>
+            by $:render_authors(book)
+            <div class="published">
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="2ddb2033a8beaf222cfa6ae7f53f096f">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/work/editions.html" startLineNumber="24" endLineNumber="29"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edition-sort.html" startLineNumber="51" endLineNumber="56"/>
+            <text>
+<![CDATA[        <div class="published">
+          $if book.publishers and book.publish_date:
+            $book.publish_date, $(', '.join(book.publishers))
+          $elif book.publish_date:
+            $book.publish_date
+          $elif book.publishers:
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="942435e5ae2c9f7d97ba45faafc72fb5">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/works-show.html" startLineNumber="1" endLineNumber="7"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/show.html" startLineNumber="1" endLineNumber="7"/>
+            <text>
+<![CDATA[$def with (book)
+
+<span itemscope itemtype="https://schema.org/Book">
+  <span class="bookcover">
+    $ url = book.get_cover_url("S") or "/images/icons/avatar_book-sm.png"
+    <a href="$book.key"><img itemprop="image" src="$url" height="60"/></a>
+  </span>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="de767d1366dccac3f30aad37f50f681a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="190" endLineNumber="195"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="181" endLineNumber="186"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="172" endLineNumber="177"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="164" endLineNumber="169"/>
+            <text>
+<![CDATA[              <img class="icon-link__image li-count" src="/static/images/icons/right-chevron.svg">
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="carousel-section-header">
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="d9e11e3841b6a377d14658535d59432d">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/list/view_body.html" startLineNumber="84" endLineNumber="89"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/list/embed.html" startLineNumber="32" endLineNumber="37"/>
+            <text>
+<![CDATA[    $def render_authors(authors):
+        $if not authors:
+            <em>$_('Unknown authors')</em>
+        $else:
+            $for a in authors:
+                <a href="$a.url()" class="results">$a.name</a>$cond(loop.last, "", ", ")
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="2f8cd6ae43962df7579da8d715ec287e">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="202" endLineNumber="207"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="106" endLineNumber="111"/>
+            <text>
+<![CDATA[                </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="59175a871df9733cb839e176e4e8a523">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/my_books/dropdown_content.html" startLineNumber="75" endLineNumber="80"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CreateListModal.html" startLineNumber="2" endLineNumber="7"/>
+            <text>
+<![CDATA[    <div class="hidden">
+        <div class="floaterAdd" id="addList">
+            <div class="floaterHead">
+                <h2>$_('Create a new list')</h2>
+                <a class="dialog--close">&times;<span class="shift">$_("Close")</span></a>
+            </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="c728568232a9051b2133a694258869ac">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChangesUsers.html" startLineNumber="1" endLineNumber="9"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChangesAdmin.html" startLineNumber="1" endLineNumber="9"/>
+            <text>
+<![CDATA[$def with (author=None, type=None, limit=25)
+
+$# _ = i18n.get_namespace('/macros/RecentChanges')
+
+$ page = safeint(query_param('page', '0'))
+$ ip = query_param('ip', None)
+$ changes = get_recent_changes(author=author, type=type, ip=ip, limit=limit, offset=page * limit)
+
+$ show_users = (query_param('show_users', 'false').lower() == 'true')
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="3f47848b9b3fd3c6f56585336e95a148">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/tag/add.html" startLineNumber="61" endLineNumber="66"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/add.html" startLineNumber="102" endLineNumber="107"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/imports-add.html" startLineNumber="23" endLineNumber="28"/>
+            <text>
+<![CDATA[                &nbsp;
+                <a href="javascript:history.go(-1);" class="attn">$_('Cancel')</a>
+            </div>
+        </div>
+    </form>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="daac0990cb605f965fdbd12d234f5619">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/template/view.html" startLineNumber="11" endLineNumber="17"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/macro/view.html" startLineNumber="9" endLineNumber="15"/>
+            <text>
+<![CDATA[$:render_template("lib/view_head", page)
+
+<div id="contentBody">
+    <div>
+        <span class="title">plugin</span>
+        <span class="tag">$page.get("plugin", "upstream")</span>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="f7c48ff978adec2b937c55ee6b344f28">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="45" endLineNumber="50"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/my_books/dropdown_content.html" startLineNumber="93" endLineNumber="98"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CreateListModal.html" startLineNumber="20" endLineNumber="25"/>
+            <text>
+<![CDATA[                    </div>
+                    <div class="input">
+                        <textarea name="list_desc" id="list_desc" rows="5" cols="30"></textarea>
+                    </div>
+                </div>
+                <div class="formElement">
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="ffb3fa4200c98a54cd0fb8b89ac8c242">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/history.html" startLineNumber="66" endLineNumber="71"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/history.html" startLineNumber="35" endLineNumber="40"/>
+            <text>
+<![CDATA[            <tr>
+                <td colspan="4"></td>
+                <td colspan="1" style="text-align:center;">
+                    <input type="submit" value="$_('Compare')"  name="_compare" title="$_('See Diff')"/>
+                </td>
+            </tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="1e325fa31a1b4676b016cce71aa83d60">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarView.html" startLineNumber="34" endLineNumber="39"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarHistory.html" startLineNumber="26" endLineNumber="31"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarTemplate.html" startLineNumber="12" endLineNumber="17"/>
+            <text>
+<![CDATA[          data-ol-link-track="CTAClick|Edit"
+          accesskey="e"
+          rel="nofollow"
+        >$_("Edit")</a>
+    </div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="367e67f59a1ac39de4fb61f1c2840f10">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="54" endLineNumber="59"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="33" endLineNumber="38"/>
+            <text>
+<![CDATA[                    <label for="u0">$_("Yes")</label>
+                    <br/><br/>
+                </div>
+            </div>
+            <div class="input radio">
+                <div class="sansserif larger">
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="fb3f3ff71e3d22a3cc6ca97a1ca2673b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/tag/add.html" startLineNumber="8" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/add.html" startLineNumber="16" endLineNumber="22"/>
+            <text>
+<![CDATA[    </div>
+        <p class="instruct">$_("We require a minimum set of fields to create a new record. These are those fields.")</p>
+    $if not ctx.user:
+        $:render_template("lib/not_logged")
+</div>
+
+<div id="contentBody">
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="d6a3d9bc301403d6a7a23f69f56e407a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/edit-book/message.html" startLineNumber="25" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/default/message.html" startLineNumber="25" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/site/around_the_library.html" startLineNumber="38" endLineNumber="43"/>
+            <text>
+<![CDATA[                $:who $_('opened a new Open Library account!')
+            $elif who:
+                $:who $action $:what
+            $else:
+                $:what was $action anonymously
+            <span class="timestamp">$when</span>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="fff20adf6750ae362a4164514de0fed0">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/work/rdf.html" startLineNumber="44" endLineNumber="49"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/rdf.html" startLineNumber="70" endLineNumber="75"/>
+            <text>
+<![CDATA[        <dcterms:subject>
+            <rdf:Description>
+                <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DDC"/>
+                <rdf:value>$DDC</rdf:value>
+            </rdf:Description>
+        </dcterms:subject>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="1e24dfc3c35c898ffe9f2e0b10a9e55b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/work/rdf.html" startLineNumber="51" endLineNumber="56"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/rdf.html" startLineNumber="77" endLineNumber="82"/>
+            <text>
+<![CDATA[        <dcterms:subject>
+            <rdf:Description>
+                <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+                <rdf:value>$LCC</rdf:value>
+            </rdf:Description>
+        </dcterms:subject>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="0e077404d6e893c780d9d528bfa5848f">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarAuthor.html" startLineNumber="63" endLineNumber="68"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CreateListModal.html" startLineNumber="30" endLineNumber="35"/>
+            <text>
+<![CDATA[                    </div>
+                    <div class="label"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="7a71bd54b430e09a106b0ec1b9a6e43a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="48" endLineNumber="54"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/about.html" startLineNumber="37" endLineNumber="43"/>
+            <text>
+<![CDATA[        <div class="csv-autocomplete--subjects" data-config="$dumps(config)">
+            $:render_subject_field(config['name'], config['data'])
+        </div>
+    </div>
+
+    <div class="formElement">
+        <div class="label">
+]]>
+            </text>
+        </set>
+        <set lineCount="6" fingerprint="3a3b3ad9efd614e993adbccfba706b72">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/work/rdf.html" startLineNumber="21" endLineNumber="26"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/rdf.html" startLineNumber="35" endLineNumber="40"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/author/rdf.html" startLineNumber="21" endLineNumber="26"/>
+            <text>
+<![CDATA[    $def display(tag, value):
+        $if isinstance(value, list):
+            $for x in value:
+                <$tag>$x</$tag>
+        $elif value:
+            <$tag>$value</$tag>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="97e41007d53b712551ad8523e7851e77">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lib/edit_head.html" startLineNumber="7" endLineNumber="13"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lib/view_head.html" startLineNumber="7" endLineNumber="13"/>
+            <text>
+<![CDATA[    </h2>
+$ author = get_recent_author(page)
+$if author:
+    <p>$_("This doc was last edited by") <a href="$author.key" rel="nofollow">$author.displayname</a> $(page.last_modified and datestr(page.last_modified)).</p>
+$else:
+    <p>$_("This doc was last edited anonymously") $(page.last_modified and datestr(page.last_modified)).</p>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="608180c8505cf1cfa1005c1d0a84b541">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/not_verified.html" startLineNumber="30" endLineNumber="37"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/verify/failed.html" startLineNumber="23" endLineNumber="30"/>
+            <text>
+<![CDATA[        <div class="formElement bottom">
+            <br/>
+            <input value="$_('Resend the verification email')" type="submit" name="" title="$_('Resend the verification email')"/>
+        </div>
+    </form>
+
+    <p>Thanks!</p>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="6d59c6384700f5303da4eb5a75b1e915">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/show.html" startLineNumber="23" endLineNumber="29"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/works-show.html" startLineNumber="28" endLineNumber="35"/>
+            <text>
+<![CDATA[    </span>
+  </span>
+</span>
+
+$if book.ocaid:
+    <span class="actions">
+        <a href="//archive.org/stream/$book.ocaid">
+            <span class="image read"></span>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="c8e0b6e45cd1ad24da07050ef094957c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/ip/view.html" startLineNumber="28" endLineNumber="35"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/edits.html" startLineNumber="25" endLineNumber="32"/>
+            <text>
+<![CDATA[$def call_template(name, change):
+    $ t = get_template("recentchanges/" + change.kind + "/" + name) or get_template("recentchanges/default/" + name)
+    $:t(change)
+
+<form method="POST" name="revert" class="olform">
+<table class="changeHistory">
+    <thead>
+        <tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="0cfcb05faa923053a3a04dbd162df427">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/list/exports.html" startLineNumber="19" endLineNumber="25"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/list/exports.html" startLineNumber="39" endLineNumber="45"/>
+            <text>
+<![CDATA[            </li>
+            <li>
+                <span class="icon subscribe"></span>
+                <span class="larger black"><strong>$_('Subscribe')</strong></span><br/>
+                $:_('Watch activity via <a rel="nofollow" href="%s">Atom feed</a>', list.url('/feeds/updates.atom'))
+            </li>
+        </ul>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="72f368acb52113b6e138d9a420c53672">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/author/edit.html" startLineNumber="146" endLineNumber="154"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/tag/edit.html" startLineNumber="46" endLineNumber="54"/>
+            <text>
+<![CDATA[        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="formElement bottom">
+            $:macros.EditButtons(comment=page.comment_)
+        </div>
+    </form>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="f28f763b5aeeb1619cd5c3d8a9e68fe3">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChanges.html" startLineNumber="52" endLineNumber="58"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/render.html" startLineNumber="58" endLineNumber="64"/>
+            <text>
+<![CDATA[    <div class="historyPager small sansserif gray">
+        $if len(changes) == limit:
+            <a href="$changequery(page=page + 1)$hash" rel="nofollow">&larr; $_("Older")</a>
+        $if page > 1:
+             &nbsp;|&nbsp;
+            <a href="$changequery(page=page - 1)$hash" rel="nofollow">$_("Newer") &rarr;</a>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="348ca9db1fa5e266ea963b5a1f666495">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/updated_records.html" startLineNumber="23" endLineNumber="29"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChangesUsers.html" startLineNumber="14" endLineNumber="20"/>
+            <text>
+<![CDATA[        <thead>
+            <tr>
+                <th>$_("When")</th>
+                <th>$_("What")</th>
+                <th>$_("Comment")</th>
+            </tr>
+        </thead>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="9e938344314665f8651f46f00f509bd5">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/showia.html" startLineNumber="32" endLineNumber="39"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/showmarc.html" startLineNumber="38" endLineNumber="45"/>
+            <text>
+<![CDATA[                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    $if not record:
+        <p>$_("Invalid MARC record.")</p>
+    $else:
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="42a401448f6a4a821b514ca23d253543">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/readinglog_stats.html" startLineNumber="121" endLineNumber="128"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/readinglog_stats.html" startLineNumber="142" endLineNumber="149"/>
+            <text>
+<![CDATA[            ]
+
+        $for chart in charts:
+            <section class="readinglog-chart-container">
+                <h3>$chart['title']</h3>
+                <div class="readinglog-stats-chart" data-config="$dumps(chart)"></div>
+            </section>
+    </section>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="5de9d488ca0994f3f6810d5646f51d8f">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/rawtext/edit.html" startLineNumber="23" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/template/edit.html" startLineNumber="33" endLineNumber="40"/>
+            <text>
+<![CDATA[        <div class="clearfix"></div>
+
+        <div class="formElement">
+            <div class="label">
+                <label for="body">$_("Document Body")</label>
+            </div>
+            <div class="input">
+                <textarea name="body" id="body" rows="40" cols="80">$page.body</textarea>
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="1434df422e66a5724f2ad39ffd550144">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/default/message.html" startLineNumber="8" endLineNumber="15"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/edit-book/message.html" startLineNumber="8" endLineNumber="15"/>
+            <text>
+<![CDATA[$ doc = change.get_changes()[0]
+
+$if doc.type.key in ['/type/edition', '/type/work']:
+    $ what = doc.title or doc.key
+$elif doc.type.key == '/type/author':
+    $ what = doc.name or doc.key
+$else:
+    $ what = doc.key
+]]>
+            </text>
+        </set>
+        <set lineCount="7" fingerprint="90438b8ef1a74f3962d612450d4d5267">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="473" endLineNumber="479"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/edit/edition.html" startLineNumber="529" endLineNumber="535"/>
+            <text>
+<![CDATA[                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</fieldset>
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="c03a72b4f11877f932f60e608527cbb1">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_single_edition.html" startLineNumber="17" endLineNumber="24"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CoverImage.html" startLineNumber="26" endLineNumber="33"/>
+            <text>
+<![CDATA[                <div class="innerBorder">
+                    <div class="BookTitle">$:macros.TruncateString(title, 70)
+                        <div class="Author">$:macros.TruncateString(author_names, 30)</div>
+                    </div>
+                </div>
+            </div>
+    </div>
+$else:
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="8ebb48682630409edc8c7203804be05e">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarView.html" startLineNumber="32" endLineNumber="39"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarHistory.html" startLineNumber="24" endLineNumber="31"/>
+            <text>
+<![CDATA[                href="$edit_url"
+                title="$_('Edit this template')"
+                data-ol-link-track="CTAClick|Edit"
+                accesskey="e"
+                rel="nofollow"
+            >$_("Edit")</a>
+        </div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="b4747c263f832a407d917ecaf63a721a">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/render.html" startLineNumber="24" endLineNumber="31"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/edits.html" startLineNumber="34" endLineNumber="41"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/ip/view.html" startLineNumber="37" endLineNumber="44"/>
+            <text>
+<![CDATA[            <th>$_("When")</th>
+            <th>$_("What")</th>
+            <th>$_("Who")</th>
+            <th>$_("Comment")</th>
+        </tr>
+    </thead>
+    <tbody>
+    $for c in changes:
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="58cc22054c3d5e060bf07d0d48c32c09">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/edition/view.html" startLineNumber="312" endLineNumber="320"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/databarWork.html" startLineNumber="69" endLineNumber="77"/>
+            <text>
+<![CDATA[      <div class="btn-notice">
+        $:worldcat_links
+
+        <div class="cta-section">
+          <p class="cta-section-title">$_('Buy this book')</p>
+          $:affiliate_links
+        </div>
+      </div>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="8" fingerprint="f233b40d7764e5715ba9172a4103418b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/EditButtonsMacros.html" startLineNumber="9" endLineNumber="17"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/EditButtons.html" startLineNumber="6" endLineNumber="14"/>
+            <text>
+<![CDATA[    </div>
+    <div class="input">
+        <input type="text" name="_comment" id="comment" value="$comment" style="width:900px;"/>
+    </div>
+</div>
+
+<div class="cclicense">
+    $:_('By saving a change to this wiki, you agree that your contribution is given freely to the world under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" title="This link to Creative Commons will open in a new window">CC0</a>. Yippee!')
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="9" fingerprint="68768c0e0bd5b88d2c4233a77ea5766f">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/search/authors.html" startLineNumber="1" endLineNumber="10"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/search/subjects.html" startLineNumber="1" endLineNumber="10"/>
+            <text>
+<![CDATA[$def with (get_results)
+
+$ q = query_param('q', '').strip()
+$ results_per_page = 100
+$ page = query_param('page')
+$if page:
+    $ page = int(page)
+$else:
+    $ page = 1
+$ offset = (page - 1) * results_per_page
+]]>
+            </text>
+        </set>
+        <set lineCount="9" fingerprint="dbf483956257043fce77e9c17627fbc9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="39" endLineNumber="47"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/mybooks.html" startLineNumber="80" endLineNumber="88"/>
+            <text>
+<![CDATA[            "books": books,
+            "title": "%s (%d)" % (title, count),
+            "url": url,
+            "key": key,
+            "min_books": 1,
+            "load_more": None,
+            "compact_mode": True,
+            "test": False
+        }) if books else None
+]]>
+            </text>
+        </set>
+        <set lineCount="9" fingerprint="e98563f5d5d76156f1163cd64f47e6f9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/works-show.html" startLineNumber="29" endLineNumber="38"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/SearchResults.html" startLineNumber="45" endLineNumber="53"/>
+            <text>
+<![CDATA[                </span>
+        </span>
+        $if book.ocaid:
+            <span class="actions">
+                <a href="//archive.org/stream/$book.ocaid">
+                    <span class="image read"></span>
+                    <span class="label">Read</span>
+                </a>
+            </span>
+]]>
+            </text>
+        </set>
+        <set lineCount="9" fingerprint="1e6e2ab379286945c0faca341615a247">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lists/export_as_bibtex.html" startLineNumber="7" endLineNumber="15"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lists/export_as_bibtex.html" startLineNumber="25" endLineNumber="33"/>
+            <text>
+<![CDATA[        title: {$:texsafe(e.title)},
+        $if e.works:
+            $ authors = e.works[0].get_authors()
+        $else:
+            $ authors = e.get_authors()
+        $if authors:
+            author: {$" and ".join(texsafe(a.name or "unnamed") for a in authors)},
+        $if e.publishers:
+            publisher: {$:texsafe(e.publishers[0])},
+]]>
+            </text>
+        </set>
+        <set lineCount="9" fingerprint="6e96e8c9def0d9b1e4f80c486f9b704b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/lists/widget.html" startLineNumber="61" endLineNumber="69"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/my_books/dropdown_content.html" startLineNumber="109" endLineNumber="117"/>
+            <text>
+<![CDATA[$def i18n_input():
+  $ show_list_i18n_strings = {
+    $ "cover_of": _('Cover of: %(title)s', title=''),
+    $ "see_this_list": _('See this list'),
+    $ "remove_from_list": _('Remove from your list?'),
+    $ "from": _('from'),
+    $ "you": _('You')
+    $ }
+  <input type="hidden" name="list-i18n-strings" value="$json_encode(show_list_i18n_strings)">
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="fb48e2c000e5b5abc2a9eef5cafd9d28">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/tag/add.html" startLineNumber="48" endLineNumber="59"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/add.html" startLineNumber="89" endLineNumber="100"/>
+            <text>
+<![CDATA[                </div>
+            </div>
+
+        $if recaptcha and not ctx.user:
+            $:render_template("recaptcha", recaptcha.public_key, error=None)
+
+        <div class="formElement bottom">
+            <br/>
+            <div class="cclicense">
+                $:_('By saving a change to this wiki, you agree that your contribution is given freely to the world under <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" title="This link to Creative Commons will open in a new window">CC0</a>. Yippee!')
+            </div>
+            <div class="input">
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="f627e6423e6eeb06694fb35f0f4841ed">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/subjects.html" startLineNumber="80" endLineNumber="90"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/publishers/view.html" startLineNumber="50" endLineNumber="60"/>
+            <text>
+<![CDATA[            </h2>
+        </div>
+
+	$jsdef renderSubjects(subjects):
+	    $if len(subjects) > 0:
+	        <span class="subject">
+	        $for s in subjects:
+	            <a href="$s.key">$s.name</a>$cond(loop.last, '', ',')
+	        </span>
+	    $else:
+	        <span class="title"><em>$_("None found.")</em></span>
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="cd9a5fb5af8d0ca7d2679fdc568689c4">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/template/edit.html" startLineNumber="12" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/rawtext/edit.html" startLineNumber="12" endLineNumber="23"/>
+            <text>
+<![CDATA[        <div class="formElement title">
+            <div class="label">
+                <label for="title">$_("Title")</label>
+            </div>
+            <div class="input">
+                <input type="text" name="title" id="title" value="$page.title"/>
+            </div>
+        </div>
+
+        $:macros.TypeChanger(page.type)
+
+        <div class="clearfix"></div>
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="0b8fc74b51a7b9d36eb602f3f1f23b24">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/loans_table.html" startLineNumber="55" endLineNumber="65"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/loans.html" startLineNumber="71" endLineNumber="80"/>
+            <text>
+<![CDATA[                <td class="cover">
+                $:render_template('covers/book_cover_small', book)
+                </td>
+                <td class="titles">
+                    <span class="book">
+                    <a href="$book.key" class="borrowResults">
+                    <strong>$book.title</strong>
+                    </a>
+                    </span>
+                    <span class="author">
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="aede59a98a064da48538ba32a103f7e2">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/page/view.html" startLineNumber="1" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/homepage/view.html" startLineNumber="1" endLineNumber="14"/>
+            <text>
+<![CDATA[$def with (page)
+
+$ title = page.title or page.key
+
+$if title.startswith("i18n::") and title.count(':') == 3:
+    $ namespace = title.split(':')[2]
+    $ key = title.split(':')[3]
+    $ title = i18n.get(namespace, key)
+
+$var title: $title
+
+$if '<!--suppress-title-->' not in page.body:
+    <div id="contentHead">
+        $:macros.databarView(page)
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="5ed9ef37861491eccd63e4d49db04219">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/render.html" startLineNumber="21" endLineNumber="30"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/RecentChanges.html" startLineNumber="8" endLineNumber="17"/>
+            <text>
+<![CDATA[    <table class="changeHistory">
+        <thead>
+            <tr>
+                <th>$_("When")</th>
+                <th>$_("What")</th>
+                <th>$_("Who")</th>
+                <th>$_("Comment")</th>
+            </tr>
+        </thead>
+        <tbody>
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="9c2af882548510c8ffb8575222cc5b10">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/imports_by_date.html" startLineNumber="23" endLineNumber="32"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/imports.html" startLineNumber="71" endLineNumber="80"/>
+            <text>
+<![CDATA[    <table class="changeHistory">
+        <tr>
+            <th>#</th>
+            <th>Identifier</th>
+            <th>OL Key</th>
+            <th>Status</th>
+            <th>Error</th>
+            <th>Added Time</th>
+            <th>Imported Time</th>
+        </tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="d1fe18bd943ed8b2a45c1f8a1e383fca">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/subjects.html" startLineNumber="100" endLineNumber="110"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/publishers/view.html" startLineNumber="72" endLineNumber="82"/>
+            <text>
+<![CDATA[    <div class="clearfix"></div>
+
+$jsdef renderAuthors(authors):
+    $for a in page.authors:
+        <span class="tag">
+            <a href="$a.key" title="$_('See more books by, and learn about, this author')">$a.name</a>,
+        </span>
+        <span class="count">$ungettext("%(count)d book", "%(count)d books", a.count, count=a.count)</span>
+        <br/>
+<div id="resultsAuthors" class="widget-box">
+    <div class="head">
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="c2f81e46e854999a9db9e739bb818662">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/index.html" startLineNumber="5" endLineNumber="14"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/header.html" startLineNumber="23" endLineNumber="32"/>
+            <text>
+<![CDATA[$def breadcrumbs():
+    $ path = request.path[1:]
+    $ d = dict(recentchanges=_("Recent Changes"))
+    $ p = ""
+    $for k in path.split("/"):
+        $ label = d.get(k, k)
+        $if loop.last:
+            $label
+        $else:
+            $ p = p + "/" + k
+]]>
+            </text>
+        </set>
+        <set lineCount="10" fingerprint="a81044fc29f4d443a6edb8081f822841">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/mobile_carousel.html" startLineNumber="10" endLineNumber="20"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/custom_carousel.html" startLineNumber="26" endLineNumber="36"/>
+            <text>
+<![CDATA[  $ fallback_cover = 'https://openlibrary.org/images/icons/avatar_book.png'
+  $ cover_host = '//covers.openlibrary.org'
+  $ url = book.get('key') or book.url
+  $ title = book.title
+
+  $ cover_id = book.get('cover_id') or book.get('cover_i') or book.get('covers') and book['covers'][0]
+  $if book.get('cover_url'):
+    $ cover_url = book.get('cover_url')
+  $elif cover_id and cover_id != -1:
+    $ cover_url = '%s/b/id/%s-M.jpg'%(cover_host, cover_id)
+  $elif book.get('ia'):
+]]>
+            </text>
+        </set>
+        <set lineCount="11" fingerprint="cac5eb2916594b90920135d996e23f91">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/imports.html" startLineNumber="85" endLineNumber="95"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/imports_by_date.html" startLineNumber="34" endLineNumber="44"/>
+            <text>
+<![CDATA[            <tr>
+                <td>$loop.index</td>
+                <td><a href="//archive.org/details/$row.ia_id">$truncate(row.ia_id, 40)</a></td>
+                <td>
+                    $if row.ol_key:
+                        <a href="$row.ol_key">$row.ol_key.split("/")[-1]</a>
+                    $else:
+                        -
+                </td>
+                <td>$row.status</td>
+                <td>${row.error or '-'}</td>
+]]>
+            </text>
+        </set>
+        <set lineCount="11" fingerprint="48cbc2c796d4713a7813a27273112d2f">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/permission/edit.html" startLineNumber="1" endLineNumber="19"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/usergroup/edit.html" startLineNumber="1" endLineNumber="19"/>
+            <text>
+<![CDATA[$def with (page)
+
+$ _x = ctx.setdefault('cssfile', 'edit')
+
+$var title: $_("Edit %(title)s", title=page.key)
+
+$:render_template("lib/edit_head", page)
+
+<div id="contentBody">
+
+    <form name="edit" method="post" action="" class="olform">
+
+    $:macros.TypeChanger(page.type)
+
+    <div class="clearfix"></div>
+
+    <div class="formElement">
+        <div class="label"><label for="description">Description:</label></div>
+        <div class="input">
+]]>
+            </text>
+        </set>
+        <set lineCount="11" fingerprint="ce61913c56f1ad6cc6581e404d01567b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/publishers/view.html" startLineNumber="33" endLineNumber="47"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/subjects.html" startLineNumber="61" endLineNumber="75"/>
+            <text>
+<![CDATA[  </div>
+
+    <script type="text/json+graph" id="graph-json-chartPubHistory">$:json_encode(page.publishing_history)</script>
+
+    <div class="chart">
+        <div class="chartYaxis">$_("Editions Published")</div>
+        <div id="chartPubHistory" class="thisChart">
+            <noscript>$_("You need to have JavaScript turned on to see the nifty chart!")</noscript>
+        </div>
+        <div class="chartXaxis">$_("Year of Publication")</div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="head" id="subjectRelated">
+]]>
+            </text>
+        </set>
+        <set lineCount="12" fingerprint="f66dd6c391eff5398e6e10ad0135cc42">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_work.html" startLineNumber="1" endLineNumber="16"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_single_edition.html" startLineNumber="1" endLineNumber="16"/>
+            <text>
+<![CDATA[$def with(book, size="M")
+
+$ title = book.title
+$ author_names = ", ".join(a.get("name", "Name missing") for a in book.get_authors()) or book.get('by_statement','')
+
+$ cover_url = book.get_cover_url(size)
+
+$ cover_lg = book.get_cover_url("L")
+
+$if size == "M":
+    <div class="coverMagic">
+        <div class="SRPCover bookCover" style="display: $cond(cover_url, 'block', 'none');">
+            <a href="$cover_lg" aria-controls="seeImage"
+                class="coverLook dialog--open" title="$_('View a larger book cover')"><img src="$cover_url" class="cover" alt="$_('Cover of: %(title)s by %(authors)s', title=title, authors=author_names)"/></a>
+        </div>
+        <div class="SRPCoverBlank" style="display: $cond(not cover_url, 'block', 'none');">
+]]>
+            </text>
+        </set>
+        <set lineCount="12" fingerprint="fa1883a1e5956bccbebf46b25275be5f">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/mobile_carousel.html" startLineNumber="27" endLineNumber="40"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/custom_carousel.html" startLineNumber="43" endLineNumber="56"/>
+            <text>
+<![CDATA[  $if book.get('authors'):
+    $ author_names = [author.name for author in book.authors]
+  $elif book.get('author_name'):
+    $ author_names = book.get('author_name', [])
+  $else:
+    $ author_names = []
+
+  $if author_names:
+    $ byline = _(' by %(name)s', name=', '.join(author_names))
+  $else:
+    $ byline = ''
+
+  $ modifier = ''
+  $ work_key = book.key if book.key.startswith('/work') else book.get('work_key')
+]]>
+            </text>
+        </set>
+        <set lineCount="12" fingerprint="a706e24d3b63710025389b716e480c32">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/ip/index.html" startLineNumber="31" endLineNumber="42"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/ip/index.html" startLineNumber="25" endLineNumber="36"/>
+            <text>
+<![CDATA[     <tr>
+          <td class="time">x minutes ago</td>
+          <td class="displayname"><a href="#">IP</a></td>
+          <td class="path" colspan="2">comment</td>
+          <td class="comment">###</td>
+     </tr>
+     <tr>
+          <td class="time">x minutes ago</td>
+          <td class="displayname"><a href="#">IP</a></td>
+          <td class="path" colspan="2">comment</td>
+          <td class="comment">###</td>
+     </tr>
+]]>
+            </text>
+        </set>
+        <set lineCount="12" fingerprint="f01db87cc0f3f43d911165776521828b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/mobile_carousel.html" startLineNumber="55" endLineNumber="66"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/books/custom_carousel.html" startLineNumber="66" endLineNumber="77"/>
+            <text>
+<![CDATA[            data-lazy="$(cover_url)"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="/>
+          $else:
+            src="$(cover_url)"/>
+        $else:
+          <div class="carousel__item__blankcover"  title="$(title)">
+            <div class="carousel__item__blankcover--title">$:macros.TruncateString(title, 70)</div>
+            $if author_names:
+              <div class="carousel__item__blankcover--authors">$:macros.TruncateString(', '.join(author_names), 30)</div>
+          </div>
+      </a>
+    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="12" fingerprint="6fd380b627bc3f3d117f324e878b0e3b">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_single_edition.html" startLineNumber="22" endLineNumber="34"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/covers/book_cover_work.html" startLineNumber="18" endLineNumber="30"/>
+            <text>
+<![CDATA[            </div>
+    </div>
+$else:
+    <img src="$(cover_url or '/images/icons/avatar_book-sm.png')" height="58" alt="$_('We need a book cover for: %(title)s', title=title)"/>
+
+<div class="hidden">
+    <div class="coverFloat" id="seeImage">
+        <div class="coverFloatHead">
+            <a class="dialog--close">&times;<span class="shift">$_("Close")</span></a>
+        </div>
+        <a class="dialog--close"><img src="$cover_lg" class="cover" alt="$title $_('by') $author_names"/></a>
+    </div>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="13" fingerprint="6ccdeac58d2b3592dcc02ce2ea2d737c">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/template/edit.html" startLineNumber="18" endLineNumber="35"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/type/macro/edit.html" startLineNumber="20" endLineNumber="37"/>
+            <text>
+<![CDATA[        </div>
+    </div>
+
+    $:macros.TypeChanger(page.type)
+
+    <div class="clearfix"></div>
+
+    <div class="formElement title">
+        <div class="label"><label for="plugin">Plugin</label></div>
+        <div class="input">
+            $ plugins = ["admin", "openlibrary", "search", "upstream", "worksearch"]
+            $:Dropdown("plugin", args=plugins, value=page.get("plugin", "upstream")).render()
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="formElement">
+]]>
+            </text>
+        </set>
+        <set lineCount="13" fingerprint="337a07eaa52f2401e3b506f2bc4bafb9">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/showia.html" startLineNumber="5" endLineNumber="18"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/showmarc.html" startLineNumber="14" endLineNumber="28"/>
+            <text>
+<![CDATA[$var title: $title
+
+<div id="contentHead">
+    $if len(books):
+        $ e = get_document(books[0])
+        <div class="breadcrumbs"><a href="$e.key">$e.title</a> /</div>
+    <h1>$title</h1>
+</div>
+
+<div id="contentBody">
+    <div class="section">
+        <table class="meta">
+            <tbody>
+                <tr>
+                    <td class="title"><span class="title">Record ID</span></td>
+]]>
+            </text>
+        </set>
+        <set lineCount="14" fingerprint="cd56c189e5a3a479e79e1002918b9ec7">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notifications.html" startLineNumber="42" endLineNumber="55"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/privacy.html" startLineNumber="62" endLineNumber="75"/>
+            <text>
+<![CDATA[                    <br/><br/>
+                </div>
+            </div>
+        </div>
+        <div class="formElement bottom">
+            <div class="input">
+                <br/>
+                <button type="submit" class="larger" name="save" title="$_('Save')">$_("Save")</button>
+                &nbsp;
+                <a href="javascript:history.go(-1);" class="smaller attn">$_('Cancel')</a>
+            </div>
+        </div>
+    </form>
+</div>
+]]>
+            </text>
+        </set>
+        <set lineCount="14" fingerprint="39a7967b04ba7db0ffc6f54d8bdfaedf">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/index.html" startLineNumber="78" endLineNumber="91"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="144" endLineNumber="157"/>
+            <text>
+<![CDATA[            </div>
+        </div>
+        <table class="measurements stripeEven" id="members">
+            <thead>
+                <tr>
+                    <th>Today</th>
+                    <th>Yesterday</th>
+                    <th>Last 7 days</th>
+                    <th>Last 28 days</th>
+                    <th class="shift">All Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="major">
+]]>
+            </text>
+        </set>
+        <set lineCount="14" fingerprint="e2a87c3e7d43710fbdf04515194e8961">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/edit-book/message.html" startLineNumber="17" endLineNumber="33"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/recentchanges/default/message.html" startLineNumber="17" endLineNumber="32"/>
+            <text>
+<![CDATA[    $ when = datestr(change.timestamp)
+
+    $if doc.revision == 1:
+        $ action = "created"
+    $else:
+        $ action = "updated"
+
+    $if doc.revision == 1 and change.author and change.author.key == doc.key:
+        $:who $_('opened a new Open Library account!')
+    $elif who:
+        $:who $action $:what
+    $else:
+        $:what was $action anonymously
+    <span class="timestamp">$when</span>
+    $if doc.type.key == '/type/delete':
+        $var ignore = True
+]]>
+            </text>
+        </set>
+        <set lineCount="15" fingerprint="46e0748ad0358b3ca1cd1d36d1236a23">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/admin/templates/admin/index.html" startLineNumber="98" endLineNumber="112"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/index.html" startLineNumber="29" endLineNumber="43"/>
+            <text>
+<![CDATA[      </div>
+    </div>
+    <table class="measurements stripeEven" id="edits">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Today</th>
+          <th>Yesterday</th>
+          <th>Last 7 days</th>
+          <th>Last 28 days</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="major">
+          <td class="type">Human</td>
+]]>
+            </text>
+        </set>
+        <set lineCount="17" fingerprint="d89ab8ee5934bc5ce4ab814d8ed087c3">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/notes.html" startLineNumber="7" endLineNumber="23"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/account/observations.html" startLineNumber="8" endLineNumber="24"/>
+            <text>
+<![CDATA[          $ work_id = i.work_id
+          $ work_cover_url = i.work_details['cover_url']
+          <li class="main-list-item">
+            <div class="work-section">
+              <span class="imageLg">
+                <a href="$i.work_key"><img src="$work_cover_url"></a>
+              </span>
+              <span>
+                <h3 itemprop="name" class="booktitle">
+                  <a itemprop="url" href="$i.work_key" class="results">$i.work_details['title']</a>
+                </h3>
+                $if i.work_details['authors']:
+                  By: $', '.join(i.work_details['authors'])
+                $else:
+                  $_('Unknown author')
+              </span>
+            </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="18" fingerprint="0aa8cc9c31cc5ca821ef9e6c8e66abfe">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/subjects.html" startLineNumber="113" endLineNumber="133"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/publishers/view.html" startLineNumber="85" endLineNumber="105"/>
+            <text>
+<![CDATA[    </div>
+    <div class="unordered">
+        $:renderAuthors(page.authors)
+    </div>
+</div>
+<div class="spacer"></div>
+
+$ publishers_feature_enabled = "publishers" in ctx.features
+
+$jsdef renderPublishers(publishers):
+    $for p in publishers:
+        <span class="tag">
+            $if publishers_feature_enabled:
+                <a href="$p.key">$p.name</a>,
+            $else:
+                <a href="/search?${page.subject_type}_facet=$page.name.replace('&','%26')&amp;publisher_facet=$p.name.replace('"', '\\"').replace('&','%26')" title="$_('Get more information about this publisher')">$p.name</a>,
+        </span>
+        <span class="count">$ungettext("%(count)s edition", "%(count)s editions", p.count, count=commify(p.count))</span>
+         <br/>
+
+<div class="section clearfix"></div>
+]]>
+            </text>
+        </set>
+        <set lineCount="22" fingerprint="7db9bb70ec36295019e8c828676156bd">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/my_books/dropdown_content.html" startLineNumber="82" endLineNumber="103"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/macros/CreateListModal.html" startLineNumber="9" endLineNumber="30"/>
+            <text>
+<![CDATA[                <div class="formElement">
+                    <div class="label">
+                        <label for="list_label">$_('Name:')</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="list_label" id="list_label" class="text required" value="" required/>
+                    </div>
+                </div>
+                <div class="formElement">
+                    <div class="label">
+                        <label for="list_desc">$_('Description:')</label>
+                    </div>
+                    <div class="input">
+                        <textarea name="list_desc" id="list_desc" rows="5" cols="30"></textarea>
+                    </div>
+                </div>
+                <div class="formElement">
+                    <div class="input">
+                        <button id="create-list-button" type="submit" class="larger">$_('Create new list')</button>
+                        &nbsp; &nbsp;
+                        <a class="small dialog--close plain red">$_('Cancel')</a>
+                    </div>
+]]>
+            </text>
+        </set>
+        <set lineCount="52" fingerprint="1eced53b098c49b731163c139cc85ade">
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/people/edits.html" startLineNumber="34" endLineNumber="89"/>
+            <block sourceFile="/home/leander/PycharmProjects/openlibrary/openlibrary/templates/admin/ip/view.html" startLineNumber="37" endLineNumber="92"/>
+            <text>
+<![CDATA[            <th>$_("When")</th>
+            <th>$_("What")</th>
+            <th>$_("Who")</th>
+            <th>$_("Comment")</th>
+        </tr>
+    </thead>
+    <tbody>
+    $for c in changes:
+        $ reverts = recentchanges({"kind": "revert", "data": {"reverted_changesets": c.id}})
+        $ revert = reverts and reverts[0]
+        $if revert:
+            $if revert.author:
+                $ revert_author = reverts[0].author.displayname
+            $else:
+                $ revert_author = reverts[0].ip
+        <tr>
+            <td>
+                $if not revert:
+                    <input type="checkbox" name="changesets" value="$c.id" checked="checked"/>
+            </td>
+            <td class="time">$datestr(c.timestamp)</td>
+            <td class="path">$:call_template("path", c)</td>
+            $if c.author:
+                <td class="displayname"><a rel="nofollow" href="$c.author.key">$c.author.displayname</a></td>
+            $elif c.ip and c.ip != '127.0.0.1':
+                $ klass = cond(c.ip in get_blocked_ips(), 'red', "")
+                <td class="history"><a rel="nofollow" href="$changequery()" class="$klass" title="When you see numbers here, that's the IP address of the anonymous editor">$c.ip</a></td>
+            $else:
+                <td class="history">$c.ip</td>
+            <td class="comment">
+                $:call_template("comment", c)
+                $if revert:
+                    <b>-- <a href="$revert.url()">Reverted</a> by $revert_author</b>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<br/>
+
+<div class="formElement">
+    <div class="label">
+        <label for="comment">$_("Please, leave a short note about what you changed:") <span class="small gray">(Optional, but very useful!)</span></label>
+    </div>
+    <div class="input">
+        <input type="text" name="comment" id="comment" value="Reverted spam" style="width:900px;"/>
+    </div>
+</div>
+
+<div class="formElement collapse" style="position:relative;">
+    <div class="input">
+        <button type="submit" class="larger" name="submit" title="$_('Submit')">$_("Submit")</button>
+    </div>
+</div>
+
+</form>
+]]>
+            </text>
+        </set>
+        <summary duplicateFileCount="172" duplicateLineCount="2747" duplicateBlockCount="459" totalFileCount="358" totalRawLineCount="17161" totalSignificantLineCount="14980" processingTime="228"/>
+    </check>
+</simian>
